@@ -1,0 +1,49 @@
+{
+  "name": "rv",
+  "version": "0.1.0",
+  "description": "RISC-V Online Help",
+  "main": "lib",
+  "directories": {
+    "doc": "docs"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "test": "eslint lib",
+    "browserify": "browserify ./lib/app.js > docs/app.js",
+    "build": "browserify ./lib/app.js | terser --compress -o docs/app.js",
+    "watch": "watchify ./lib/app.js -o docs/app.js -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drom/rv.git"
+  },
+  "author": "Aliaksei Chapyzhenka",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/drom/rv/issues"
+  },
+  "homepage": "https://github.com/drom/rv#readme",
+  "devDependencies": {
+    "@codemirror/state": "^6.2.0",
+    "@codemirror/view": "^6.7.3",
+    "@drom/eslint-config": "^0.10.0",
+    "browserify": "^17.0.0",
+    "eslint": "^8.33.0",
+    "live-server": "^1.2.2",
+    "onml": "^2.1.0",
+    "riscv": "^0.4.0",
+    "terser": "^5.15.0",
+    "watchify": "^4.0.0"
+  },
+  "eslintConfig": {
+    "extends": "@drom/eslint-config/eslint4/node8",
+    "env": {
+      "es2020": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 2020
+    }
+  }
+}
