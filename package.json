@@ -26,9 +26,12 @@
   },
   "homepage": "https://github.com/drom/rv#readme",
   "devDependencies": {
+    "@codemirror/commands": "^6.2.0",
+    "@codemirror/language": "^6.4.0",
     "@codemirror/state": "^6.2.0",
     "@codemirror/view": "^6.7.3",
     "@drom/eslint-config": "^0.10.0",
+    "@lezer/highlight": "^1.1.3",
     "browserify": "^17.0.0",
     "eslint": "^8.33.0",
     "live-server": "^1.2.2",
