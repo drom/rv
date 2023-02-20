@@ -9,7 +9,7 @@
   "engines": {
     "node": ">=12"
   },
-  "timestamp": "2023-02-15",
+  "timestamp": "2023-02-19",
   "scripts": {
     "test": "eslint lib",
     "browserify": "browserify ./lib/app.js > docs/app.js",
@@ -37,7 +37,7 @@
     "eslint": "^8.33.0",
     "live-server": "^1.2.2",
     "onml": "^2.1.0",
-    "riscv": "^0.7.0",
+    "riscv": "^0.8.0",
     "terser": "^5.15.0",
     "watchify": "^4.0.0"
   },
