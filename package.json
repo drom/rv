@@ -9,7 +9,7 @@
   "engines": {
     "node": ">=12"
   },
-  "timestamp": "2023-02-19",
+  "timestamp": "2023-02-27",
   "scripts": {
     "test": "eslint lib",
     "browserify": "browserify ./lib/app.js > docs/app.js",
