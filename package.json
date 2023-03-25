@@ -9,7 +9,7 @@
   "engines": {
     "node": ">=12"
   },
-  "timestamp": "2023-03-08",
+  "timestamp": "2023-03-24",
   "scripts": {
     "test": "eslint lib",
     "browserify": "browserify ./lib/app.js > docs/app.js",
@@ -27,18 +27,18 @@
   },
   "homepage": "https://github.com/drom/rv#readme",
   "devDependencies": {
-    "@codemirror/commands": "^6.2.0",
+    "@codemirror/commands": "^6.2.2",
     "@codemirror/language": "^6.4.0",
     "@codemirror/state": "^6.2.0",
-    "@codemirror/view": "^6.7.3",
+    "@codemirror/view": "^6.9.3",
     "@drom/eslint-config": "^0.10.0",
-    "@lezer/highlight": "^1.1.3",
+    "@lezer/highlight": "^1.1.4",
     "browserify": "^17.0.0",
-    "eslint": "^8.33.0",
+    "eslint": "^8.36.0",
     "live-server": "^1.2.2",
     "onml": "^2.1.0",
-    "riscv": "^0.10.0",
-    "terser": "^5.15.0",
+    "riscv": "^0.11.0",
+    "terser": "^5.16.8",
     "watchify": "^4.0.0"
   },
   "eslintConfig": {
