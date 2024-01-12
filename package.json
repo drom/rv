@@ -1,6 +1,6 @@
 {
   "name": "rv",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "RISC-V Online Help",
   "main": "lib",
   "directories": {
