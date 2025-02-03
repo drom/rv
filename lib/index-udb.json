@@ -1,0 +1,5034 @@
+{
+  "certificate_class": {
+    "MC": {
+      "$ref": "certificate_class/MC.yaml"
+    },
+    "MockCertificateClass": {
+      "$ref": "certificate_class/MockCertificateClass.yaml"
+    }
+  },
+  "certificate_model": {
+    "MC100-32": {
+      "$ref": "certificate_model/MC100-32.yaml"
+    },
+    "MC100-64": {
+      "$ref": "certificate_model/MC100-64.yaml"
+    },
+    "MC200-32": {
+      "$ref": "certificate_model/MC200-32.yaml"
+    },
+    "MC200-64": {
+      "$ref": "certificate_model/MC200-64.yaml"
+    },
+    "MC300-32": {
+      "$ref": "certificate_model/MC300-32.yaml"
+    },
+    "MC300-64": {
+      "$ref": "certificate_model/MC300-64.yaml"
+    },
+    "MockCertificateModel": {
+      "$ref": "certificate_model/MockCertificateModel.yaml"
+    }
+  },
+  "csr": {
+    "F": {
+      "fcsr": {
+        "$ref": "csr/F/fcsr.yaml"
+      }
+    },
+    "H": {
+      "hcounteren": {
+        "$ref": "csr/H/hcounteren.yaml"
+      },
+      "henvcfg": {
+        "$ref": "csr/H/henvcfg.yaml"
+      },
+      "henvcfgh": {
+        "$ref": "csr/H/henvcfgh.yaml"
+      },
+      "hgatp": {
+        "$ref": "csr/H/hgatp.yaml"
+      },
+      "htimedelta": {
+        "$ref": "csr/H/htimedelta.yaml"
+      },
+      "htimedeltah": {
+        "$ref": "csr/H/htimedeltah.yaml"
+      },
+      "htinst": {
+        "$ref": "csr/H/htinst.yaml"
+      },
+      "htval": {
+        "$ref": "csr/H/htval.yaml"
+      },
+      "mtinst": {
+        "$ref": "csr/H/mtinst.yaml"
+      },
+      "mtval2": {
+        "$ref": "csr/H/mtval2.yaml"
+      },
+      "vsatp": {
+        "$ref": "csr/H/vsatp.yaml"
+      }
+    },
+    "I": {
+      "mcounteren": {
+        "$ref": "csr/I/mcounteren.yaml"
+      },
+      "pmpaddr0": {
+        "$ref": "csr/I/pmpaddr0.yaml"
+      },
+      "pmpaddr1": {
+        "$ref": "csr/I/pmpaddr1.yaml"
+      },
+      "pmpaddr10": {
+        "$ref": "csr/I/pmpaddr10.yaml"
+      },
+      "pmpaddr11": {
+        "$ref": "csr/I/pmpaddr11.yaml"
+      },
+      "pmpaddr12": {
+        "$ref": "csr/I/pmpaddr12.yaml"
+      },
+      "pmpaddr13": {
+        "$ref": "csr/I/pmpaddr13.yaml"
+      },
+      "pmpaddr14": {
+        "$ref": "csr/I/pmpaddr14.yaml"
+      },
+      "pmpaddr15": {
+        "$ref": "csr/I/pmpaddr15.yaml"
+      },
+      "pmpaddr16": {
+        "$ref": "csr/I/pmpaddr16.yaml"
+      },
+      "pmpaddr17": {
+        "$ref": "csr/I/pmpaddr17.yaml"
+      },
+      "pmpaddr18": {
+        "$ref": "csr/I/pmpaddr18.yaml"
+      },
+      "pmpaddr19": {
+        "$ref": "csr/I/pmpaddr19.yaml"
+      },
+      "pmpaddr2": {
+        "$ref": "csr/I/pmpaddr2.yaml"
+      },
+      "pmpaddr20": {
+        "$ref": "csr/I/pmpaddr20.yaml"
+      },
+      "pmpaddr21": {
+        "$ref": "csr/I/pmpaddr21.yaml"
+      },
+      "pmpaddr22": {
+        "$ref": "csr/I/pmpaddr22.yaml"
+      },
+      "pmpaddr23": {
+        "$ref": "csr/I/pmpaddr23.yaml"
+      },
+      "pmpaddr24": {
+        "$ref": "csr/I/pmpaddr24.yaml"
+      },
+      "pmpaddr25": {
+        "$ref": "csr/I/pmpaddr25.yaml"
+      },
+      "pmpaddr26": {
+        "$ref": "csr/I/pmpaddr26.yaml"
+      },
+      "pmpaddr27": {
+        "$ref": "csr/I/pmpaddr27.yaml"
+      },
+      "pmpaddr28": {
+        "$ref": "csr/I/pmpaddr28.yaml"
+      },
+      "pmpaddr29": {
+        "$ref": "csr/I/pmpaddr29.yaml"
+      },
+      "pmpaddr3": {
+        "$ref": "csr/I/pmpaddr3.yaml"
+      },
+      "pmpaddr30": {
+        "$ref": "csr/I/pmpaddr30.yaml"
+      },
+      "pmpaddr31": {
+        "$ref": "csr/I/pmpaddr31.yaml"
+      },
+      "pmpaddr32": {
+        "$ref": "csr/I/pmpaddr32.yaml"
+      },
+      "pmpaddr33": {
+        "$ref": "csr/I/pmpaddr33.yaml"
+      },
+      "pmpaddr34": {
+        "$ref": "csr/I/pmpaddr34.yaml"
+      },
+      "pmpaddr35": {
+        "$ref": "csr/I/pmpaddr35.yaml"
+      },
+      "pmpaddr36": {
+        "$ref": "csr/I/pmpaddr36.yaml"
+      },
+      "pmpaddr37": {
+        "$ref": "csr/I/pmpaddr37.yaml"
+      },
+      "pmpaddr38": {
+        "$ref": "csr/I/pmpaddr38.yaml"
+      },
+      "pmpaddr39": {
+        "$ref": "csr/I/pmpaddr39.yaml"
+      },
+      "pmpaddr4": {
+        "$ref": "csr/I/pmpaddr4.yaml"
+      },
+      "pmpaddr40": {
+        "$ref": "csr/I/pmpaddr40.yaml"
+      },
+      "pmpaddr41": {
+        "$ref": "csr/I/pmpaddr41.yaml"
+      },
+      "pmpaddr42": {
+        "$ref": "csr/I/pmpaddr42.yaml"
+      },
+      "pmpaddr43": {
+        "$ref": "csr/I/pmpaddr43.yaml"
+      },
+      "pmpaddr44": {
+        "$ref": "csr/I/pmpaddr44.yaml"
+      },
+      "pmpaddr45": {
+        "$ref": "csr/I/pmpaddr45.yaml"
+      },
+      "pmpaddr46": {
+        "$ref": "csr/I/pmpaddr46.yaml"
+      },
+      "pmpaddr47": {
+        "$ref": "csr/I/pmpaddr47.yaml"
+      },
+      "pmpaddr48": {
+        "$ref": "csr/I/pmpaddr48.yaml"
+      },
+      "pmpaddr49": {
+        "$ref": "csr/I/pmpaddr49.yaml"
+      },
+      "pmpaddr5": {
+        "$ref": "csr/I/pmpaddr5.yaml"
+      },
+      "pmpaddr50": {
+        "$ref": "csr/I/pmpaddr50.yaml"
+      },
+      "pmpaddr51": {
+        "$ref": "csr/I/pmpaddr51.yaml"
+      },
+      "pmpaddr52": {
+        "$ref": "csr/I/pmpaddr52.yaml"
+      },
+      "pmpaddr53": {
+        "$ref": "csr/I/pmpaddr53.yaml"
+      },
+      "pmpaddr54": {
+        "$ref": "csr/I/pmpaddr54.yaml"
+      },
+      "pmpaddr55": {
+        "$ref": "csr/I/pmpaddr55.yaml"
+      },
+      "pmpaddr56": {
+        "$ref": "csr/I/pmpaddr56.yaml"
+      },
+      "pmpaddr57": {
+        "$ref": "csr/I/pmpaddr57.yaml"
+      },
+      "pmpaddr58": {
+        "$ref": "csr/I/pmpaddr58.yaml"
+      },
+      "pmpaddr59": {
+        "$ref": "csr/I/pmpaddr59.yaml"
+      },
+      "pmpaddr6": {
+        "$ref": "csr/I/pmpaddr6.yaml"
+      },
+      "pmpaddr60": {
+        "$ref": "csr/I/pmpaddr60.yaml"
+      },
+      "pmpaddr61": {
+        "$ref": "csr/I/pmpaddr61.yaml"
+      },
+      "pmpaddr62": {
+        "$ref": "csr/I/pmpaddr62.yaml"
+      },
+      "pmpaddr63": {
+        "$ref": "csr/I/pmpaddr63.yaml"
+      },
+      "pmpaddr7": {
+        "$ref": "csr/I/pmpaddr7.yaml"
+      },
+      "pmpaddr8": {
+        "$ref": "csr/I/pmpaddr8.yaml"
+      },
+      "pmpaddr9": {
+        "$ref": "csr/I/pmpaddr9.yaml"
+      },
+      "pmpcfg0": {
+        "$ref": "csr/I/pmpcfg0.yaml"
+      },
+      "pmpcfg1": {
+        "$ref": "csr/I/pmpcfg1.yaml"
+      },
+      "pmpcfg10": {
+        "$ref": "csr/I/pmpcfg10.yaml"
+      },
+      "pmpcfg11": {
+        "$ref": "csr/I/pmpcfg11.yaml"
+      },
+      "pmpcfg12": {
+        "$ref": "csr/I/pmpcfg12.yaml"
+      },
+      "pmpcfg13": {
+        "$ref": "csr/I/pmpcfg13.yaml"
+      },
+      "pmpcfg14": {
+        "$ref": "csr/I/pmpcfg14.yaml"
+      },
+      "pmpcfg15": {
+        "$ref": "csr/I/pmpcfg15.yaml"
+      },
+      "pmpcfg2": {
+        "$ref": "csr/I/pmpcfg2.yaml"
+      },
+      "pmpcfg3": {
+        "$ref": "csr/I/pmpcfg3.yaml"
+      },
+      "pmpcfg4": {
+        "$ref": "csr/I/pmpcfg4.yaml"
+      },
+      "pmpcfg5": {
+        "$ref": "csr/I/pmpcfg5.yaml"
+      },
+      "pmpcfg6": {
+        "$ref": "csr/I/pmpcfg6.yaml"
+      },
+      "pmpcfg7": {
+        "$ref": "csr/I/pmpcfg7.yaml"
+      },
+      "pmpcfg8": {
+        "$ref": "csr/I/pmpcfg8.yaml"
+      },
+      "pmpcfg9": {
+        "$ref": "csr/I/pmpcfg9.yaml"
+      }
+    },
+    "S": {
+      "scounteren": {
+        "$ref": "csr/S/scounteren.yaml"
+      }
+    },
+    "Smrnmi": {
+      "mncause": {
+        "$ref": "csr/Smrnmi/mncause.yaml"
+      }
+    },
+    "Zicntr": {
+      "mcountinhibit": {
+        "$ref": "csr/Zicntr/mcountinhibit.yaml"
+      }
+    },
+    "Zihpm": {
+      "hpmcounter10": {
+        "$ref": "csr/Zihpm/hpmcounter10.yaml"
+      },
+      "hpmcounter10h": {
+        "$ref": "csr/Zihpm/hpmcounter10h.yaml"
+      },
+      "hpmcounter11": {
+        "$ref": "csr/Zihpm/hpmcounter11.yaml"
+      },
+      "hpmcounter11h": {
+        "$ref": "csr/Zihpm/hpmcounter11h.yaml"
+      },
+      "hpmcounter12": {
+        "$ref": "csr/Zihpm/hpmcounter12.yaml"
+      },
+      "hpmcounter12h": {
+        "$ref": "csr/Zihpm/hpmcounter12h.yaml"
+      },
+      "hpmcounter13": {
+        "$ref": "csr/Zihpm/hpmcounter13.yaml"
+      },
+      "hpmcounter13h": {
+        "$ref": "csr/Zihpm/hpmcounter13h.yaml"
+      },
+      "hpmcounter14": {
+        "$ref": "csr/Zihpm/hpmcounter14.yaml"
+      },
+      "hpmcounter14h": {
+        "$ref": "csr/Zihpm/hpmcounter14h.yaml"
+      },
+      "hpmcounter15": {
+        "$ref": "csr/Zihpm/hpmcounter15.yaml"
+      },
+      "hpmcounter15h": {
+        "$ref": "csr/Zihpm/hpmcounter15h.yaml"
+      },
+      "hpmcounter16": {
+        "$ref": "csr/Zihpm/hpmcounter16.yaml"
+      },
+      "hpmcounter16h": {
+        "$ref": "csr/Zihpm/hpmcounter16h.yaml"
+      },
+      "hpmcounter17": {
+        "$ref": "csr/Zihpm/hpmcounter17.yaml"
+      },
+      "hpmcounter17h": {
+        "$ref": "csr/Zihpm/hpmcounter17h.yaml"
+      },
+      "hpmcounter18": {
+        "$ref": "csr/Zihpm/hpmcounter18.yaml"
+      },
+      "hpmcounter18h": {
+        "$ref": "csr/Zihpm/hpmcounter18h.yaml"
+      },
+      "hpmcounter19": {
+        "$ref": "csr/Zihpm/hpmcounter19.yaml"
+      },
+      "hpmcounter19h": {
+        "$ref": "csr/Zihpm/hpmcounter19h.yaml"
+      },
+      "hpmcounter20": {
+        "$ref": "csr/Zihpm/hpmcounter20.yaml"
+      },
+      "hpmcounter20h": {
+        "$ref": "csr/Zihpm/hpmcounter20h.yaml"
+      },
+      "hpmcounter21": {
+        "$ref": "csr/Zihpm/hpmcounter21.yaml"
+      },
+      "hpmcounter21h": {
+        "$ref": "csr/Zihpm/hpmcounter21h.yaml"
+      },
+      "hpmcounter22": {
+        "$ref": "csr/Zihpm/hpmcounter22.yaml"
+      },
+      "hpmcounter22h": {
+        "$ref": "csr/Zihpm/hpmcounter22h.yaml"
+      },
+      "hpmcounter23": {
+        "$ref": "csr/Zihpm/hpmcounter23.yaml"
+      },
+      "hpmcounter23h": {
+        "$ref": "csr/Zihpm/hpmcounter23h.yaml"
+      },
+      "hpmcounter24": {
+        "$ref": "csr/Zihpm/hpmcounter24.yaml"
+      },
+      "hpmcounter24h": {
+        "$ref": "csr/Zihpm/hpmcounter24h.yaml"
+      },
+      "hpmcounter25": {
+        "$ref": "csr/Zihpm/hpmcounter25.yaml"
+      },
+      "hpmcounter25h": {
+        "$ref": "csr/Zihpm/hpmcounter25h.yaml"
+      },
+      "hpmcounter26": {
+        "$ref": "csr/Zihpm/hpmcounter26.yaml"
+      },
+      "hpmcounter26h": {
+        "$ref": "csr/Zihpm/hpmcounter26h.yaml"
+      },
+      "hpmcounter27": {
+        "$ref": "csr/Zihpm/hpmcounter27.yaml"
+      },
+      "hpmcounter27h": {
+        "$ref": "csr/Zihpm/hpmcounter27h.yaml"
+      },
+      "hpmcounter28": {
+        "$ref": "csr/Zihpm/hpmcounter28.yaml"
+      },
+      "hpmcounter28h": {
+        "$ref": "csr/Zihpm/hpmcounter28h.yaml"
+      },
+      "hpmcounter29": {
+        "$ref": "csr/Zihpm/hpmcounter29.yaml"
+      },
+      "hpmcounter29h": {
+        "$ref": "csr/Zihpm/hpmcounter29h.yaml"
+      },
+      "hpmcounter3": {
+        "$ref": "csr/Zihpm/hpmcounter3.yaml"
+      },
+      "hpmcounter30": {
+        "$ref": "csr/Zihpm/hpmcounter30.yaml"
+      },
+      "hpmcounter30h": {
+        "$ref": "csr/Zihpm/hpmcounter30h.yaml"
+      },
+      "hpmcounter31": {
+        "$ref": "csr/Zihpm/hpmcounter31.yaml"
+      },
+      "hpmcounter31h": {
+        "$ref": "csr/Zihpm/hpmcounter31h.yaml"
+      },
+      "hpmcounter3h": {
+        "$ref": "csr/Zihpm/hpmcounter3h.yaml"
+      },
+      "hpmcounter4": {
+        "$ref": "csr/Zihpm/hpmcounter4.yaml"
+      },
+      "hpmcounter4h": {
+        "$ref": "csr/Zihpm/hpmcounter4h.yaml"
+      },
+      "hpmcounter5": {
+        "$ref": "csr/Zihpm/hpmcounter5.yaml"
+      },
+      "hpmcounter5h": {
+        "$ref": "csr/Zihpm/hpmcounter5h.yaml"
+      },
+      "hpmcounter6": {
+        "$ref": "csr/Zihpm/hpmcounter6.yaml"
+      },
+      "hpmcounter6h": {
+        "$ref": "csr/Zihpm/hpmcounter6h.yaml"
+      },
+      "hpmcounter7": {
+        "$ref": "csr/Zihpm/hpmcounter7.yaml"
+      },
+      "hpmcounter7h": {
+        "$ref": "csr/Zihpm/hpmcounter7h.yaml"
+      },
+      "hpmcounter8": {
+        "$ref": "csr/Zihpm/hpmcounter8.yaml"
+      },
+      "hpmcounter8h": {
+        "$ref": "csr/Zihpm/hpmcounter8h.yaml"
+      },
+      "hpmcounter9": {
+        "$ref": "csr/Zihpm/hpmcounter9.yaml"
+      },
+      "hpmcounter9h": {
+        "$ref": "csr/Zihpm/hpmcounter9h.yaml"
+      },
+      "mhpmcounter10": {
+        "$ref": "csr/Zihpm/mhpmcounter10.yaml"
+      },
+      "mhpmcounter10h": {
+        "$ref": "csr/Zihpm/mhpmcounter10h.yaml"
+      },
+      "mhpmcounter11": {
+        "$ref": "csr/Zihpm/mhpmcounter11.yaml"
+      },
+      "mhpmcounter11h": {
+        "$ref": "csr/Zihpm/mhpmcounter11h.yaml"
+      },
+      "mhpmcounter12": {
+        "$ref": "csr/Zihpm/mhpmcounter12.yaml"
+      },
+      "mhpmcounter12h": {
+        "$ref": "csr/Zihpm/mhpmcounter12h.yaml"
+      },
+      "mhpmcounter13": {
+        "$ref": "csr/Zihpm/mhpmcounter13.yaml"
+      },
+      "mhpmcounter13h": {
+        "$ref": "csr/Zihpm/mhpmcounter13h.yaml"
+      },
+      "mhpmcounter14": {
+        "$ref": "csr/Zihpm/mhpmcounter14.yaml"
+      },
+      "mhpmcounter14h": {
+        "$ref": "csr/Zihpm/mhpmcounter14h.yaml"
+      },
+      "mhpmcounter15": {
+        "$ref": "csr/Zihpm/mhpmcounter15.yaml"
+      },
+      "mhpmcounter15h": {
+        "$ref": "csr/Zihpm/mhpmcounter15h.yaml"
+      },
+      "mhpmcounter16": {
+        "$ref": "csr/Zihpm/mhpmcounter16.yaml"
+      },
+      "mhpmcounter16h": {
+        "$ref": "csr/Zihpm/mhpmcounter16h.yaml"
+      },
+      "mhpmcounter17": {
+        "$ref": "csr/Zihpm/mhpmcounter17.yaml"
+      },
+      "mhpmcounter17h": {
+        "$ref": "csr/Zihpm/mhpmcounter17h.yaml"
+      },
+      "mhpmcounter18": {
+        "$ref": "csr/Zihpm/mhpmcounter18.yaml"
+      },
+      "mhpmcounter18h": {
+        "$ref": "csr/Zihpm/mhpmcounter18h.yaml"
+      },
+      "mhpmcounter19": {
+        "$ref": "csr/Zihpm/mhpmcounter19.yaml"
+      },
+      "mhpmcounter19h": {
+        "$ref": "csr/Zihpm/mhpmcounter19h.yaml"
+      },
+      "mhpmcounter20": {
+        "$ref": "csr/Zihpm/mhpmcounter20.yaml"
+      },
+      "mhpmcounter20h": {
+        "$ref": "csr/Zihpm/mhpmcounter20h.yaml"
+      },
+      "mhpmcounter21": {
+        "$ref": "csr/Zihpm/mhpmcounter21.yaml"
+      },
+      "mhpmcounter21h": {
+        "$ref": "csr/Zihpm/mhpmcounter21h.yaml"
+      },
+      "mhpmcounter22": {
+        "$ref": "csr/Zihpm/mhpmcounter22.yaml"
+      },
+      "mhpmcounter22h": {
+        "$ref": "csr/Zihpm/mhpmcounter22h.yaml"
+      },
+      "mhpmcounter23": {
+        "$ref": "csr/Zihpm/mhpmcounter23.yaml"
+      },
+      "mhpmcounter23h": {
+        "$ref": "csr/Zihpm/mhpmcounter23h.yaml"
+      },
+      "mhpmcounter24": {
+        "$ref": "csr/Zihpm/mhpmcounter24.yaml"
+      },
+      "mhpmcounter24h": {
+        "$ref": "csr/Zihpm/mhpmcounter24h.yaml"
+      },
+      "mhpmcounter25": {
+        "$ref": "csr/Zihpm/mhpmcounter25.yaml"
+      },
+      "mhpmcounter25h": {
+        "$ref": "csr/Zihpm/mhpmcounter25h.yaml"
+      },
+      "mhpmcounter26": {
+        "$ref": "csr/Zihpm/mhpmcounter26.yaml"
+      },
+      "mhpmcounter26h": {
+        "$ref": "csr/Zihpm/mhpmcounter26h.yaml"
+      },
+      "mhpmcounter27": {
+        "$ref": "csr/Zihpm/mhpmcounter27.yaml"
+      },
+      "mhpmcounter27h": {
+        "$ref": "csr/Zihpm/mhpmcounter27h.yaml"
+      },
+      "mhpmcounter28": {
+        "$ref": "csr/Zihpm/mhpmcounter28.yaml"
+      },
+      "mhpmcounter28h": {
+        "$ref": "csr/Zihpm/mhpmcounter28h.yaml"
+      },
+      "mhpmcounter29": {
+        "$ref": "csr/Zihpm/mhpmcounter29.yaml"
+      },
+      "mhpmcounter29h": {
+        "$ref": "csr/Zihpm/mhpmcounter29h.yaml"
+      },
+      "mhpmcounter3": {
+        "$ref": "csr/Zihpm/mhpmcounter3.yaml"
+      },
+      "mhpmcounter30": {
+        "$ref": "csr/Zihpm/mhpmcounter30.yaml"
+      },
+      "mhpmcounter30h": {
+        "$ref": "csr/Zihpm/mhpmcounter30h.yaml"
+      },
+      "mhpmcounter31": {
+        "$ref": "csr/Zihpm/mhpmcounter31.yaml"
+      },
+      "mhpmcounter31h": {
+        "$ref": "csr/Zihpm/mhpmcounter31h.yaml"
+      },
+      "mhpmcounter3h": {
+        "$ref": "csr/Zihpm/mhpmcounter3h.yaml"
+      },
+      "mhpmcounter4": {
+        "$ref": "csr/Zihpm/mhpmcounter4.yaml"
+      },
+      "mhpmcounter4h": {
+        "$ref": "csr/Zihpm/mhpmcounter4h.yaml"
+      },
+      "mhpmcounter5": {
+        "$ref": "csr/Zihpm/mhpmcounter5.yaml"
+      },
+      "mhpmcounter5h": {
+        "$ref": "csr/Zihpm/mhpmcounter5h.yaml"
+      },
+      "mhpmcounter6": {
+        "$ref": "csr/Zihpm/mhpmcounter6.yaml"
+      },
+      "mhpmcounter6h": {
+        "$ref": "csr/Zihpm/mhpmcounter6h.yaml"
+      },
+      "mhpmcounter7": {
+        "$ref": "csr/Zihpm/mhpmcounter7.yaml"
+      },
+      "mhpmcounter7h": {
+        "$ref": "csr/Zihpm/mhpmcounter7h.yaml"
+      },
+      "mhpmcounter8": {
+        "$ref": "csr/Zihpm/mhpmcounter8.yaml"
+      },
+      "mhpmcounter8h": {
+        "$ref": "csr/Zihpm/mhpmcounter8h.yaml"
+      },
+      "mhpmcounter9": {
+        "$ref": "csr/Zihpm/mhpmcounter9.yaml"
+      },
+      "mhpmcounter9h": {
+        "$ref": "csr/Zihpm/mhpmcounter9h.yaml"
+      },
+      "mhpmevent10": {
+        "$ref": "csr/Zihpm/mhpmevent10.yaml"
+      },
+      "mhpmevent10h": {
+        "$ref": "csr/Zihpm/mhpmevent10h.yaml"
+      },
+      "mhpmevent11": {
+        "$ref": "csr/Zihpm/mhpmevent11.yaml"
+      },
+      "mhpmevent11h": {
+        "$ref": "csr/Zihpm/mhpmevent11h.yaml"
+      },
+      "mhpmevent12": {
+        "$ref": "csr/Zihpm/mhpmevent12.yaml"
+      },
+      "mhpmevent12h": {
+        "$ref": "csr/Zihpm/mhpmevent12h.yaml"
+      },
+      "mhpmevent13": {
+        "$ref": "csr/Zihpm/mhpmevent13.yaml"
+      },
+      "mhpmevent13h": {
+        "$ref": "csr/Zihpm/mhpmevent13h.yaml"
+      },
+      "mhpmevent14": {
+        "$ref": "csr/Zihpm/mhpmevent14.yaml"
+      },
+      "mhpmevent14h": {
+        "$ref": "csr/Zihpm/mhpmevent14h.yaml"
+      },
+      "mhpmevent15": {
+        "$ref": "csr/Zihpm/mhpmevent15.yaml"
+      },
+      "mhpmevent15h": {
+        "$ref": "csr/Zihpm/mhpmevent15h.yaml"
+      },
+      "mhpmevent16": {
+        "$ref": "csr/Zihpm/mhpmevent16.yaml"
+      },
+      "mhpmevent16h": {
+        "$ref": "csr/Zihpm/mhpmevent16h.yaml"
+      },
+      "mhpmevent17": {
+        "$ref": "csr/Zihpm/mhpmevent17.yaml"
+      },
+      "mhpmevent17h": {
+        "$ref": "csr/Zihpm/mhpmevent17h.yaml"
+      },
+      "mhpmevent18": {
+        "$ref": "csr/Zihpm/mhpmevent18.yaml"
+      },
+      "mhpmevent18h": {
+        "$ref": "csr/Zihpm/mhpmevent18h.yaml"
+      },
+      "mhpmevent19": {
+        "$ref": "csr/Zihpm/mhpmevent19.yaml"
+      },
+      "mhpmevent19h": {
+        "$ref": "csr/Zihpm/mhpmevent19h.yaml"
+      },
+      "mhpmevent20": {
+        "$ref": "csr/Zihpm/mhpmevent20.yaml"
+      },
+      "mhpmevent20h": {
+        "$ref": "csr/Zihpm/mhpmevent20h.yaml"
+      },
+      "mhpmevent21": {
+        "$ref": "csr/Zihpm/mhpmevent21.yaml"
+      },
+      "mhpmevent21h": {
+        "$ref": "csr/Zihpm/mhpmevent21h.yaml"
+      },
+      "mhpmevent22": {
+        "$ref": "csr/Zihpm/mhpmevent22.yaml"
+      },
+      "mhpmevent22h": {
+        "$ref": "csr/Zihpm/mhpmevent22h.yaml"
+      },
+      "mhpmevent23": {
+        "$ref": "csr/Zihpm/mhpmevent23.yaml"
+      },
+      "mhpmevent23h": {
+        "$ref": "csr/Zihpm/mhpmevent23h.yaml"
+      },
+      "mhpmevent24": {
+        "$ref": "csr/Zihpm/mhpmevent24.yaml"
+      },
+      "mhpmevent24h": {
+        "$ref": "csr/Zihpm/mhpmevent24h.yaml"
+      },
+      "mhpmevent25": {
+        "$ref": "csr/Zihpm/mhpmevent25.yaml"
+      },
+      "mhpmevent25h": {
+        "$ref": "csr/Zihpm/mhpmevent25h.yaml"
+      },
+      "mhpmevent26": {
+        "$ref": "csr/Zihpm/mhpmevent26.yaml"
+      },
+      "mhpmevent26h": {
+        "$ref": "csr/Zihpm/mhpmevent26h.yaml"
+      },
+      "mhpmevent27": {
+        "$ref": "csr/Zihpm/mhpmevent27.yaml"
+      },
+      "mhpmevent27h": {
+        "$ref": "csr/Zihpm/mhpmevent27h.yaml"
+      },
+      "mhpmevent28": {
+        "$ref": "csr/Zihpm/mhpmevent28.yaml"
+      },
+      "mhpmevent28h": {
+        "$ref": "csr/Zihpm/mhpmevent28h.yaml"
+      },
+      "mhpmevent29": {
+        "$ref": "csr/Zihpm/mhpmevent29.yaml"
+      },
+      "mhpmevent29h": {
+        "$ref": "csr/Zihpm/mhpmevent29h.yaml"
+      },
+      "mhpmevent3": {
+        "$ref": "csr/Zihpm/mhpmevent3.yaml"
+      },
+      "mhpmevent30": {
+        "$ref": "csr/Zihpm/mhpmevent30.yaml"
+      },
+      "mhpmevent30h": {
+        "$ref": "csr/Zihpm/mhpmevent30h.yaml"
+      },
+      "mhpmevent31": {
+        "$ref": "csr/Zihpm/mhpmevent31.yaml"
+      },
+      "mhpmevent31h": {
+        "$ref": "csr/Zihpm/mhpmevent31h.yaml"
+      },
+      "mhpmevent3h": {
+        "$ref": "csr/Zihpm/mhpmevent3h.yaml"
+      },
+      "mhpmevent4": {
+        "$ref": "csr/Zihpm/mhpmevent4.yaml"
+      },
+      "mhpmevent4h": {
+        "$ref": "csr/Zihpm/mhpmevent4h.yaml"
+      },
+      "mhpmevent5": {
+        "$ref": "csr/Zihpm/mhpmevent5.yaml"
+      },
+      "mhpmevent5h": {
+        "$ref": "csr/Zihpm/mhpmevent5h.yaml"
+      },
+      "mhpmevent6": {
+        "$ref": "csr/Zihpm/mhpmevent6.yaml"
+      },
+      "mhpmevent6h": {
+        "$ref": "csr/Zihpm/mhpmevent6h.yaml"
+      },
+      "mhpmevent7": {
+        "$ref": "csr/Zihpm/mhpmevent7.yaml"
+      },
+      "mhpmevent7h": {
+        "$ref": "csr/Zihpm/mhpmevent7h.yaml"
+      },
+      "mhpmevent8": {
+        "$ref": "csr/Zihpm/mhpmevent8.yaml"
+      },
+      "mhpmevent8h": {
+        "$ref": "csr/Zihpm/mhpmevent8h.yaml"
+      },
+      "mhpmevent9": {
+        "$ref": "csr/Zihpm/mhpmevent9.yaml"
+      },
+      "mhpmevent9h": {
+        "$ref": "csr/Zihpm/mhpmevent9h.yaml"
+      }
+    },
+    "cycle": {
+      "$ref": "csr/cycle.yaml"
+    },
+    "cycleh": {
+      "$ref": "csr/cycleh.yaml"
+    },
+    "hedeleg": {
+      "$ref": "csr/hedeleg.yaml"
+    },
+    "hedelegh": {
+      "$ref": "csr/hedelegh.yaml"
+    },
+    "hstatus": {
+      "$ref": "csr/hstatus.yaml"
+    },
+    "instret": {
+      "$ref": "csr/instret.yaml"
+    },
+    "instreth": {
+      "$ref": "csr/instreth.yaml"
+    },
+    "marchid": {
+      "$ref": "csr/marchid.yaml"
+    },
+    "mcause": {
+      "$ref": "csr/mcause.yaml"
+    },
+    "mconfigptr": {
+      "$ref": "csr/mconfigptr.yaml"
+    },
+    "mcycle": {
+      "$ref": "csr/mcycle.yaml"
+    },
+    "mcycleh": {
+      "$ref": "csr/mcycleh.yaml"
+    },
+    "medeleg": {
+      "$ref": "csr/medeleg.yaml"
+    },
+    "medelegh": {
+      "$ref": "csr/medelegh.yaml"
+    },
+    "menvcfg": {
+      "$ref": "csr/menvcfg.yaml"
+    },
+    "menvcfgh": {
+      "$ref": "csr/menvcfgh.yaml"
+    },
+    "mepc": {
+      "$ref": "csr/mepc.yaml"
+    },
+    "mhartid": {
+      "$ref": "csr/mhartid.yaml"
+    },
+    "mideleg": {
+      "$ref": "csr/mideleg.yaml"
+    },
+    "mie": {
+      "$ref": "csr/mie.yaml"
+    },
+    "mimpid": {
+      "$ref": "csr/mimpid.yaml"
+    },
+    "minstret": {
+      "$ref": "csr/minstret.yaml"
+    },
+    "minstreth": {
+      "$ref": "csr/minstreth.yaml"
+    },
+    "mip": {
+      "$ref": "csr/mip.yaml"
+    },
+    "misa": {
+      "$ref": "csr/misa.yaml"
+    },
+    "mscratch": {
+      "$ref": "csr/mscratch.yaml"
+    },
+    "mseccfg": {
+      "$ref": "csr/mseccfg.yaml"
+    },
+    "mseccfgh": {
+      "$ref": "csr/mseccfgh.yaml"
+    },
+    "mstatus": {
+      "$ref": "csr/mstatus.yaml"
+    },
+    "mstatush": {
+      "$ref": "csr/mstatush.yaml"
+    },
+    "mtval": {
+      "$ref": "csr/mtval.yaml"
+    },
+    "mtvec": {
+      "$ref": "csr/mtvec.yaml"
+    },
+    "mvendorid": {
+      "$ref": "csr/mvendorid.yaml"
+    },
+    "satp": {
+      "$ref": "csr/satp.yaml"
+    },
+    "scause": {
+      "$ref": "csr/scause.yaml"
+    },
+    "senvcfg": {
+      "$ref": "csr/senvcfg.yaml"
+    },
+    "sepc": {
+      "$ref": "csr/sepc.yaml"
+    },
+    "sip": {
+      "$ref": "csr/sip.yaml"
+    },
+    "sscratch": {
+      "$ref": "csr/sscratch.yaml"
+    },
+    "sstatus": {
+      "$ref": "csr/sstatus.yaml"
+    },
+    "stval": {
+      "$ref": "csr/stval.yaml"
+    },
+    "stvec": {
+      "$ref": "csr/stvec.yaml"
+    },
+    "time": {
+      "$ref": "csr/time.yaml"
+    },
+    "timeh": {
+      "$ref": "csr/timeh.yaml"
+    },
+    "vscause": {
+      "$ref": "csr/vscause.yaml"
+    },
+    "vsepc": {
+      "$ref": "csr/vsepc.yaml"
+    },
+    "vsstatus": {
+      "$ref": "csr/vsstatus.yaml"
+    },
+    "vstval": {
+      "$ref": "csr/vstval.yaml"
+    },
+    "vstvec": {
+      "$ref": "csr/vstvec.yaml"
+    }
+  },
+  "ext": {
+    "A": {
+      "$ref": "ext/A.yaml"
+    },
+    "B": {
+      "$ref": "ext/B.yaml"
+    },
+    "C": {
+      "$ref": "ext/C.yaml"
+    },
+    "D": {
+      "$ref": "ext/D.yaml"
+    },
+    "F": {
+      "$ref": "ext/F.yaml"
+    },
+    "H": {
+      "$ref": "ext/H.yaml"
+    },
+    "I": {
+      "$ref": "ext/I.yaml"
+    },
+    "M": {
+      "$ref": "ext/M.yaml"
+    },
+    "Q": {
+      "$ref": "ext/Q.yaml"
+    },
+    "S": {
+      "$ref": "ext/S.yaml"
+    },
+    "Sdext": {
+      "$ref": "ext/Sdext.yaml"
+    },
+    "Sdtrig": {
+      "$ref": "ext/Sdtrig.yaml"
+    },
+    "Sha": {
+      "$ref": "ext/Sha.yaml"
+    },
+    "Shgatpa": {
+      "$ref": "ext/Shgatpa.yaml"
+    },
+    "Shtvala": {
+      "$ref": "ext/Shtvala.yaml"
+    },
+    "Shvstvala": {
+      "$ref": "ext/Shvstvala.yaml"
+    },
+    "Shvstvecd": {
+      "$ref": "ext/Shvstvecd.yaml"
+    },
+    "Sm": {
+      "$ref": "ext/Sm.yaml"
+    },
+    "Smaia": {
+      "$ref": "ext/Smaia.yaml"
+    },
+    "Smcdeleg": {
+      "$ref": "ext/Smcdeleg.yaml"
+    },
+    "Smcntrpmf": {
+      "$ref": "ext/Smcntrpmf.yaml"
+    },
+    "Smdbltrp": {
+      "$ref": "ext/Smdbltrp.yaml"
+    },
+    "Smhpm": {
+      "$ref": "ext/Smhpm.yaml"
+    },
+    "Smmpm": {
+      "$ref": "ext/Smmpm.yaml"
+    },
+    "Smnpm": {
+      "$ref": "ext/Smnpm.yaml"
+    },
+    "Smpmp": {
+      "$ref": "ext/Smpmp.yaml"
+    },
+    "Smrnmi": {
+      "$ref": "ext/Smrnmi.yaml"
+    },
+    "Ssaia": {
+      "$ref": "ext/Ssaia.yaml"
+    },
+    "Ssccfg": {
+      "$ref": "ext/Ssccfg.yaml"
+    },
+    "Ssccptr": {
+      "$ref": "ext/Ssccptr.yaml"
+    },
+    "Sscofpmf": {
+      "$ref": "ext/Sscofpmf.yaml"
+    },
+    "Sscounterenw": {
+      "$ref": "ext/Sscounterenw.yaml"
+    },
+    "Ssnpm": {
+      "$ref": "ext/Ssnpm.yaml"
+    },
+    "Sspm": {
+      "$ref": "ext/Sspm.yaml"
+    },
+    "Ssstateen": {
+      "$ref": "ext/Ssstateen.yaml"
+    },
+    "Ssstrict": {
+      "$ref": "ext/Ssstrict.yaml"
+    },
+    "Sstc": {
+      "$ref": "ext/Sstc.yaml"
+    },
+    "Sstvala": {
+      "$ref": "ext/Sstvala.yaml"
+    },
+    "Sstvecd": {
+      "$ref": "ext/Sstvecd.yaml"
+    },
+    "Ssu64xl": {
+      "$ref": "ext/Ssu64xl.yaml"
+    },
+    "Supm": {
+      "$ref": "ext/Supm.yaml"
+    },
+    "Sv32": {
+      "$ref": "ext/Sv32.yaml"
+    },
+    "Sv39": {
+      "$ref": "ext/Sv39.yaml"
+    },
+    "Sv48": {
+      "$ref": "ext/Sv48.yaml"
+    },
+    "Sv57": {
+      "$ref": "ext/Sv57.yaml"
+    },
+    "Svade": {
+      "$ref": "ext/Svade.yaml"
+    },
+    "Svadu": {
+      "$ref": "ext/Svadu.yaml"
+    },
+    "Svbare": {
+      "$ref": "ext/Svbare.yaml"
+    },
+    "Svinval": {
+      "$ref": "ext/Svinval.yaml"
+    },
+    "Svnapot": {
+      "$ref": "ext/Svnapot.yaml"
+    },
+    "Svpbmt": {
+      "$ref": "ext/Svpbmt.yaml"
+    },
+    "Svvptc": {
+      "$ref": "ext/Svvptc.yaml"
+    },
+    "U": {
+      "$ref": "ext/U.yaml"
+    },
+    "V": {
+      "$ref": "ext/V.yaml"
+    },
+    "Xmock": {
+      "$ref": "ext/Xmock.yaml"
+    },
+    "Za128rs": {
+      "$ref": "ext/Za128rs.yaml"
+    },
+    "Za64rs": {
+      "$ref": "ext/Za64rs.yaml"
+    },
+    "Zaamo": {
+      "$ref": "ext/Zaamo.yaml"
+    },
+    "Zabha": {
+      "$ref": "ext/Zabha.yaml"
+    },
+    "Zacas": {
+      "$ref": "ext/Zacas.yaml"
+    },
+    "Zalasr": {
+      "$ref": "ext/Zalasr.yaml"
+    },
+    "Zalrsc": {
+      "$ref": "ext/Zalrsc.yaml"
+    },
+    "Zama16b": {
+      "$ref": "ext/Zama16b.yaml"
+    },
+    "Zawrs": {
+      "$ref": "ext/Zawrs.yaml"
+    },
+    "Zba": {
+      "$ref": "ext/Zba.yaml"
+    },
+    "Zbb": {
+      "$ref": "ext/Zbb.yaml"
+    },
+    "Zbc": {
+      "$ref": "ext/Zbc.yaml"
+    },
+    "Zbkb": {
+      "$ref": "ext/Zbkb.yaml"
+    },
+    "Zbkc": {
+      "$ref": "ext/Zbkc.yaml"
+    },
+    "Zbkx": {
+      "$ref": "ext/Zbkx.yaml"
+    },
+    "Zbs": {
+      "$ref": "ext/Zbs.yaml"
+    },
+    "Zca": {
+      "$ref": "ext/Zca.yaml"
+    },
+    "Zcb": {
+      "$ref": "ext/Zcb.yaml"
+    },
+    "Zcd": {
+      "$ref": "ext/Zcd.yaml"
+    },
+    "Zce": {
+      "$ref": "ext/Zce.yaml"
+    },
+    "Zcmop": {
+      "$ref": "ext/Zcmop.yaml"
+    },
+    "Zcmp": {
+      "$ref": "ext/Zcmp.yaml"
+    },
+    "Zcmt": {
+      "$ref": "ext/Zcmt.yaml"
+    },
+    "Zfa": {
+      "$ref": "ext/Zfa.yaml"
+    },
+    "Zfbfmin": {
+      "$ref": "ext/Zfbfmin.yaml"
+    },
+    "Zfh": {
+      "$ref": "ext/Zfh.yaml"
+    },
+    "Zfhmin": {
+      "$ref": "ext/Zfhmin.yaml"
+    },
+    "Zhinx": {
+      "$ref": "ext/Zhinx.yaml"
+    },
+    "Zic64b": {
+      "$ref": "ext/Zic64b.yaml"
+    },
+    "Zicbom": {
+      "$ref": "ext/Zicbom.yaml"
+    },
+    "Zicbop": {
+      "$ref": "ext/Zicbop.yaml"
+    },
+    "Zicboz": {
+      "$ref": "ext/Zicboz.yaml"
+    },
+    "Ziccamoa": {
+      "$ref": "ext/Ziccamoa.yaml"
+    },
+    "Ziccamoc": {
+      "$ref": "ext/Ziccamoc.yaml"
+    },
+    "Ziccif": {
+      "$ref": "ext/Ziccif.yaml"
+    },
+    "Zicclsm": {
+      "$ref": "ext/Zicclsm.yaml"
+    },
+    "Ziccrse": {
+      "$ref": "ext/Ziccrse.yaml"
+    },
+    "Zicfilp": {
+      "$ref": "ext/Zicfilp.yaml"
+    },
+    "Zicfiss": {
+      "$ref": "ext/Zicfiss.yaml"
+    },
+    "Zicntr": {
+      "$ref": "ext/Zicntr.yaml"
+    },
+    "Zicond": {
+      "$ref": "ext/Zicond.yaml"
+    },
+    "Zicsr": {
+      "$ref": "ext/Zicsr.yaml"
+    },
+    "Zifencei": {
+      "$ref": "ext/Zifencei.yaml"
+    },
+    "Zihintntl": {
+      "$ref": "ext/Zihintntl.yaml"
+    },
+    "Zihintpause": {
+      "$ref": "ext/Zihintpause.yaml"
+    },
+    "Zihpm": {
+      "$ref": "ext/Zihpm.yaml"
+    },
+    "Zimop": {
+      "$ref": "ext/Zimop.yaml"
+    },
+    "Zk": {
+      "$ref": "ext/Zk.yaml"
+    },
+    "Zkn": {
+      "$ref": "ext/Zkn.yaml"
+    },
+    "Zknd": {
+      "$ref": "ext/Zknd.yaml"
+    },
+    "Zkne": {
+      "$ref": "ext/Zkne.yaml"
+    },
+    "Zknh": {
+      "$ref": "ext/Zknh.yaml"
+    },
+    "Zkr": {
+      "$ref": "ext/Zkr.yaml"
+    },
+    "Zks": {
+      "$ref": "ext/Zks.yaml"
+    },
+    "Zksed": {
+      "$ref": "ext/Zksed.yaml"
+    },
+    "Zksh": {
+      "$ref": "ext/Zksh.yaml"
+    },
+    "Zkt": {
+      "$ref": "ext/Zkt.yaml"
+    },
+    "Zmmul": {
+      "$ref": "ext/Zmmul.yaml"
+    },
+    "Zvbb": {
+      "$ref": "ext/Zvbb.yaml"
+    },
+    "Zvbc": {
+      "$ref": "ext/Zvbc.yaml"
+    },
+    "Zvfbfmin": {
+      "$ref": "ext/Zvfbfmin.yaml"
+    },
+    "Zvfbfwma": {
+      "$ref": "ext/Zvfbfwma.yaml"
+    },
+    "Zvfh": {
+      "$ref": "ext/Zvfh.yaml"
+    },
+    "Zvfhmin": {
+      "$ref": "ext/Zvfhmin.yaml"
+    },
+    "Zvkb": {
+      "$ref": "ext/Zvkb.yaml"
+    },
+    "Zvkg": {
+      "$ref": "ext/Zvkg.yaml"
+    },
+    "Zvkn": {
+      "$ref": "ext/Zvkn.yaml"
+    },
+    "Zvknc": {
+      "$ref": "ext/Zvknc.yaml"
+    },
+    "Zvkned": {
+      "$ref": "ext/Zvkned.yaml"
+    },
+    "Zvkng": {
+      "$ref": "ext/Zvkng.yaml"
+    },
+    "Zvknha": {
+      "$ref": "ext/Zvknha.yaml"
+    },
+    "Zvknhb": {
+      "$ref": "ext/Zvknhb.yaml"
+    },
+    "Zvks": {
+      "$ref": "ext/Zvks.yaml"
+    },
+    "Zvksc": {
+      "$ref": "ext/Zvksc.yaml"
+    },
+    "Zvksed": {
+      "$ref": "ext/Zvksed.yaml"
+    },
+    "Zvksg": {
+      "$ref": "ext/Zvksg.yaml"
+    },
+    "Zvksh": {
+      "$ref": "ext/Zvksh.yaml"
+    },
+    "Zvkt": {
+      "$ref": "ext/Zvkt.yaml"
+    }
+  },
+  "inst": {
+    "A": {
+      "amoadd.d": {
+        "$ref": "inst/A/amoadd.d.yaml"
+      },
+      "amoadd.w": {
+        "$ref": "inst/A/amoadd.w.yaml"
+      },
+      "amoand.d": {
+        "$ref": "inst/A/amoand.d.yaml"
+      },
+      "amoand.w": {
+        "$ref": "inst/A/amoand.w.yaml"
+      },
+      "amomax.d": {
+        "$ref": "inst/A/amomax.d.yaml"
+      },
+      "amomax.w": {
+        "$ref": "inst/A/amomax.w.yaml"
+      },
+      "amomaxu.d": {
+        "$ref": "inst/A/amomaxu.d.yaml"
+      },
+      "amomaxu.w": {
+        "$ref": "inst/A/amomaxu.w.yaml"
+      },
+      "amomin.d": {
+        "$ref": "inst/A/amomin.d.yaml"
+      },
+      "amomin.w": {
+        "$ref": "inst/A/amomin.w.yaml"
+      },
+      "amominu.d": {
+        "$ref": "inst/A/amominu.d.yaml"
+      },
+      "amominu.w": {
+        "$ref": "inst/A/amominu.w.yaml"
+      },
+      "amoor.d": {
+        "$ref": "inst/A/amoor.d.yaml"
+      },
+      "amoor.w": {
+        "$ref": "inst/A/amoor.w.yaml"
+      },
+      "amoswap.d": {
+        "$ref": "inst/A/amoswap.d.yaml"
+      },
+      "amoswap.w": {
+        "$ref": "inst/A/amoswap.w.yaml"
+      },
+      "amoxor.d": {
+        "$ref": "inst/A/amoxor.d.yaml"
+      },
+      "amoxor.w": {
+        "$ref": "inst/A/amoxor.w.yaml"
+      },
+      "lr.d": {
+        "$ref": "inst/A/lr.d.yaml"
+      },
+      "lr.w": {
+        "$ref": "inst/A/lr.w.yaml"
+      },
+      "sc.d": {
+        "$ref": "inst/A/sc.d.yaml"
+      },
+      "sc.w": {
+        "$ref": "inst/A/sc.w.yaml"
+      }
+    },
+    "B": {
+      "add.uw": {
+        "$ref": "inst/B/add.uw.yaml"
+      },
+      "andn": {
+        "$ref": "inst/B/andn.yaml"
+      },
+      "bclr": {
+        "$ref": "inst/B/bclr.yaml"
+      },
+      "bclri": {
+        "$ref": "inst/B/bclri.yaml"
+      },
+      "bext": {
+        "$ref": "inst/B/bext.yaml"
+      },
+      "bexti": {
+        "$ref": "inst/B/bexti.yaml"
+      },
+      "binv": {
+        "$ref": "inst/B/binv.yaml"
+      },
+      "binvi": {
+        "$ref": "inst/B/binvi.yaml"
+      },
+      "bset": {
+        "$ref": "inst/B/bset.yaml"
+      },
+      "bseti": {
+        "$ref": "inst/B/bseti.yaml"
+      },
+      "clmul": {
+        "$ref": "inst/B/clmul.yaml"
+      },
+      "clmulh": {
+        "$ref": "inst/B/clmulh.yaml"
+      },
+      "clmulr": {
+        "$ref": "inst/B/clmulr.yaml"
+      },
+      "clz": {
+        "$ref": "inst/B/clz.yaml"
+      },
+      "clzw": {
+        "$ref": "inst/B/clzw.yaml"
+      },
+      "cpop": {
+        "$ref": "inst/B/cpop.yaml"
+      },
+      "cpopw": {
+        "$ref": "inst/B/cpopw.yaml"
+      },
+      "ctz": {
+        "$ref": "inst/B/ctz.yaml"
+      },
+      "ctzw": {
+        "$ref": "inst/B/ctzw.yaml"
+      },
+      "max": {
+        "$ref": "inst/B/max.yaml"
+      },
+      "maxu": {
+        "$ref": "inst/B/maxu.yaml"
+      },
+      "min": {
+        "$ref": "inst/B/min.yaml"
+      },
+      "minu": {
+        "$ref": "inst/B/minu.yaml"
+      },
+      "orc.b": {
+        "$ref": "inst/B/orc.b.yaml"
+      },
+      "orn": {
+        "$ref": "inst/B/orn.yaml"
+      },
+      "rev8": {
+        "$ref": "inst/B/rev8.yaml"
+      },
+      "rol": {
+        "$ref": "inst/B/rol.yaml"
+      },
+      "rolw": {
+        "$ref": "inst/B/rolw.yaml"
+      },
+      "ror": {
+        "$ref": "inst/B/ror.yaml"
+      },
+      "rori": {
+        "$ref": "inst/B/rori.yaml"
+      },
+      "roriw": {
+        "$ref": "inst/B/roriw.yaml"
+      },
+      "rorw": {
+        "$ref": "inst/B/rorw.yaml"
+      },
+      "sext.b": {
+        "$ref": "inst/B/sext.b.yaml"
+      },
+      "sext.h": {
+        "$ref": "inst/B/sext.h.yaml"
+      },
+      "sh1add.uw": {
+        "$ref": "inst/B/sh1add.uw.yaml"
+      },
+      "sh1add": {
+        "$ref": "inst/B/sh1add.yaml"
+      },
+      "sh2add.uw": {
+        "$ref": "inst/B/sh2add.uw.yaml"
+      },
+      "sh2add": {
+        "$ref": "inst/B/sh2add.yaml"
+      },
+      "sh3add.uw": {
+        "$ref": "inst/B/sh3add.uw.yaml"
+      },
+      "sh3add": {
+        "$ref": "inst/B/sh3add.yaml"
+      },
+      "slli.uw": {
+        "$ref": "inst/B/slli.uw.yaml"
+      },
+      "xnor": {
+        "$ref": "inst/B/xnor.yaml"
+      },
+      "zext.h": {
+        "$ref": "inst/B/zext.h.yaml"
+      }
+    },
+    "C": {
+      "c.add": {
+        "$ref": "inst/C/c.add.yaml"
+      },
+      "c.addi": {
+        "$ref": "inst/C/c.addi.yaml"
+      },
+      "c.addi16sp": {
+        "$ref": "inst/C/c.addi16sp.yaml"
+      },
+      "c.addi4spn": {
+        "$ref": "inst/C/c.addi4spn.yaml"
+      },
+      "c.addiw": {
+        "$ref": "inst/C/c.addiw.yaml"
+      },
+      "c.addw": {
+        "$ref": "inst/C/c.addw.yaml"
+      },
+      "c.and": {
+        "$ref": "inst/C/c.and.yaml"
+      },
+      "c.andi": {
+        "$ref": "inst/C/c.andi.yaml"
+      },
+      "c.beqz": {
+        "$ref": "inst/C/c.beqz.yaml"
+      },
+      "c.bnez": {
+        "$ref": "inst/C/c.bnez.yaml"
+      },
+      "c.ebreak": {
+        "$ref": "inst/C/c.ebreak.yaml"
+      },
+      "c.fld": {
+        "$ref": "inst/C/c.fld.yaml"
+      },
+      "c.fldsp": {
+        "$ref": "inst/C/c.fldsp.yaml"
+      },
+      "c.flw": {
+        "$ref": "inst/C/c.flw.yaml"
+      },
+      "c.flwsp": {
+        "$ref": "inst/C/c.flwsp.yaml"
+      },
+      "c.fsd": {
+        "$ref": "inst/C/c.fsd.yaml"
+      },
+      "c.fsdsp": {
+        "$ref": "inst/C/c.fsdsp.yaml"
+      },
+      "c.fsw": {
+        "$ref": "inst/C/c.fsw.yaml"
+      },
+      "c.fswsp": {
+        "$ref": "inst/C/c.fswsp.yaml"
+      },
+      "c.j": {
+        "$ref": "inst/C/c.j.yaml"
+      },
+      "c.jal": {
+        "$ref": "inst/C/c.jal.yaml"
+      },
+      "c.jalr": {
+        "$ref": "inst/C/c.jalr.yaml"
+      },
+      "c.jr": {
+        "$ref": "inst/C/c.jr.yaml"
+      },
+      "c.ld": {
+        "$ref": "inst/C/c.ld.yaml"
+      },
+      "c.ldsp": {
+        "$ref": "inst/C/c.ldsp.yaml"
+      },
+      "c.li": {
+        "$ref": "inst/C/c.li.yaml"
+      },
+      "c.lq": {
+        "$ref": "inst/C/c.lq.yaml"
+      },
+      "c.lqsp": {
+        "$ref": "inst/C/c.lqsp.yaml"
+      },
+      "c.lui": {
+        "$ref": "inst/C/c.lui.yaml"
+      },
+      "c.lw": {
+        "$ref": "inst/C/c.lw.yaml"
+      },
+      "c.lwsp": {
+        "$ref": "inst/C/c.lwsp.yaml"
+      },
+      "c.mv": {
+        "$ref": "inst/C/c.mv.yaml"
+      },
+      "c.nop": {
+        "$ref": "inst/C/c.nop.yaml"
+      },
+      "c.or": {
+        "$ref": "inst/C/c.or.yaml"
+      },
+      "c.sd": {
+        "$ref": "inst/C/c.sd.yaml"
+      },
+      "c.sdsp": {
+        "$ref": "inst/C/c.sdsp.yaml"
+      },
+      "c.slli": {
+        "$ref": "inst/C/c.slli.yaml"
+      },
+      "c.sq": {
+        "$ref": "inst/C/c.sq.yaml"
+      },
+      "c.sqsp": {
+        "$ref": "inst/C/c.sqsp.yaml"
+      },
+      "c.srai": {
+        "$ref": "inst/C/c.srai.yaml"
+      },
+      "c.srli": {
+        "$ref": "inst/C/c.srli.yaml"
+      },
+      "c.sub": {
+        "$ref": "inst/C/c.sub.yaml"
+      },
+      "c.subw": {
+        "$ref": "inst/C/c.subw.yaml"
+      },
+      "c.sw": {
+        "$ref": "inst/C/c.sw.yaml"
+      },
+      "c.swsp": {
+        "$ref": "inst/C/c.swsp.yaml"
+      },
+      "c.xor": {
+        "$ref": "inst/C/c.xor.yaml"
+      }
+    },
+    "D": {
+      "fadd.d": {
+        "$ref": "inst/D/fadd.d.yaml"
+      },
+      "fclass.d": {
+        "$ref": "inst/D/fclass.d.yaml"
+      },
+      "fcvt.d.l": {
+        "$ref": "inst/D/fcvt.d.l.yaml"
+      },
+      "fcvt.d.lu": {
+        "$ref": "inst/D/fcvt.d.lu.yaml"
+      },
+      "fcvt.d.s": {
+        "$ref": "inst/D/fcvt.d.s.yaml"
+      },
+      "fcvt.d.w": {
+        "$ref": "inst/D/fcvt.d.w.yaml"
+      },
+      "fcvt.d.wu": {
+        "$ref": "inst/D/fcvt.d.wu.yaml"
+      },
+      "fcvt.l.d": {
+        "$ref": "inst/D/fcvt.l.d.yaml"
+      },
+      "fcvt.lu.d": {
+        "$ref": "inst/D/fcvt.lu.d.yaml"
+      },
+      "fcvt.s.d": {
+        "$ref": "inst/D/fcvt.s.d.yaml"
+      },
+      "fcvt.w.d": {
+        "$ref": "inst/D/fcvt.w.d.yaml"
+      },
+      "fcvt.wu.d": {
+        "$ref": "inst/D/fcvt.wu.d.yaml"
+      },
+      "fcvtmod.w.d": {
+        "$ref": "inst/D/fcvtmod.w.d.yaml"
+      },
+      "fdiv.d": {
+        "$ref": "inst/D/fdiv.d.yaml"
+      },
+      "feq.d": {
+        "$ref": "inst/D/feq.d.yaml"
+      },
+      "fld": {
+        "$ref": "inst/D/fld.yaml"
+      },
+      "fle.d": {
+        "$ref": "inst/D/fle.d.yaml"
+      },
+      "fleq.d": {
+        "$ref": "inst/D/fleq.d.yaml"
+      },
+      "fli.d": {
+        "$ref": "inst/D/fli.d.yaml"
+      },
+      "flt.d": {
+        "$ref": "inst/D/flt.d.yaml"
+      },
+      "fltq.d": {
+        "$ref": "inst/D/fltq.d.yaml"
+      },
+      "fmadd.d": {
+        "$ref": "inst/D/fmadd.d.yaml"
+      },
+      "fmax.d": {
+        "$ref": "inst/D/fmax.d.yaml"
+      },
+      "fmaxm.d": {
+        "$ref": "inst/D/fmaxm.d.yaml"
+      },
+      "fmin.d": {
+        "$ref": "inst/D/fmin.d.yaml"
+      },
+      "fminm.d": {
+        "$ref": "inst/D/fminm.d.yaml"
+      },
+      "fmsub.d": {
+        "$ref": "inst/D/fmsub.d.yaml"
+      },
+      "fmul.d": {
+        "$ref": "inst/D/fmul.d.yaml"
+      },
+      "fmv.d.x": {
+        "$ref": "inst/D/fmv.d.x.yaml"
+      },
+      "fmv.x.d": {
+        "$ref": "inst/D/fmv.x.d.yaml"
+      },
+      "fmvh.x.d": {
+        "$ref": "inst/D/fmvh.x.d.yaml"
+      },
+      "fmvp.d.x": {
+        "$ref": "inst/D/fmvp.d.x.yaml"
+      },
+      "fnmadd.d": {
+        "$ref": "inst/D/fnmadd.d.yaml"
+      },
+      "fnmsub.d": {
+        "$ref": "inst/D/fnmsub.d.yaml"
+      },
+      "fround.d": {
+        "$ref": "inst/D/fround.d.yaml"
+      },
+      "froundnx.d": {
+        "$ref": "inst/D/froundnx.d.yaml"
+      },
+      "fsd": {
+        "$ref": "inst/D/fsd.yaml"
+      },
+      "fsgnj.d": {
+        "$ref": "inst/D/fsgnj.d.yaml"
+      },
+      "fsgnjn.d": {
+        "$ref": "inst/D/fsgnjn.d.yaml"
+      },
+      "fsgnjx.d": {
+        "$ref": "inst/D/fsgnjx.d.yaml"
+      },
+      "fsqrt.d": {
+        "$ref": "inst/D/fsqrt.d.yaml"
+      },
+      "fsub.d": {
+        "$ref": "inst/D/fsub.d.yaml"
+      }
+    },
+    "F": {
+      "fadd.s": {
+        "$ref": "inst/F/fadd.s.yaml"
+      },
+      "fclass.s": {
+        "$ref": "inst/F/fclass.s.yaml"
+      },
+      "fcvt.l.s": {
+        "$ref": "inst/F/fcvt.l.s.yaml"
+      },
+      "fcvt.lu.s": {
+        "$ref": "inst/F/fcvt.lu.s.yaml"
+      },
+      "fcvt.s.l": {
+        "$ref": "inst/F/fcvt.s.l.yaml"
+      },
+      "fcvt.s.lu": {
+        "$ref": "inst/F/fcvt.s.lu.yaml"
+      },
+      "fcvt.s.w": {
+        "$ref": "inst/F/fcvt.s.w.yaml"
+      },
+      "fcvt.s.wu": {
+        "$ref": "inst/F/fcvt.s.wu.yaml"
+      },
+      "fcvt.w.s": {
+        "$ref": "inst/F/fcvt.w.s.yaml"
+      },
+      "fcvt.wu.s": {
+        "$ref": "inst/F/fcvt.wu.s.yaml"
+      },
+      "fdiv.s": {
+        "$ref": "inst/F/fdiv.s.yaml"
+      },
+      "feq.s": {
+        "$ref": "inst/F/feq.s.yaml"
+      },
+      "fle.s": {
+        "$ref": "inst/F/fle.s.yaml"
+      },
+      "fleq.s": {
+        "$ref": "inst/F/fleq.s.yaml"
+      },
+      "fli.s": {
+        "$ref": "inst/F/fli.s.yaml"
+      },
+      "flt.s": {
+        "$ref": "inst/F/flt.s.yaml"
+      },
+      "fltq.s": {
+        "$ref": "inst/F/fltq.s.yaml"
+      },
+      "flw": {
+        "$ref": "inst/F/flw.yaml"
+      },
+      "fmadd.s": {
+        "$ref": "inst/F/fmadd.s.yaml"
+      },
+      "fmax.s": {
+        "$ref": "inst/F/fmax.s.yaml"
+      },
+      "fmaxm.s": {
+        "$ref": "inst/F/fmaxm.s.yaml"
+      },
+      "fmin.s": {
+        "$ref": "inst/F/fmin.s.yaml"
+      },
+      "fminm.s": {
+        "$ref": "inst/F/fminm.s.yaml"
+      },
+      "fmsub.s": {
+        "$ref": "inst/F/fmsub.s.yaml"
+      },
+      "fmul.s": {
+        "$ref": "inst/F/fmul.s.yaml"
+      },
+      "fmv.w.x": {
+        "$ref": "inst/F/fmv.w.x.yaml"
+      },
+      "fmv.x.w": {
+        "$ref": "inst/F/fmv.x.w.yaml"
+      },
+      "fnmadd.s": {
+        "$ref": "inst/F/fnmadd.s.yaml"
+      },
+      "fnmsub.s": {
+        "$ref": "inst/F/fnmsub.s.yaml"
+      },
+      "fround.s": {
+        "$ref": "inst/F/fround.s.yaml"
+      },
+      "froundnx.s": {
+        "$ref": "inst/F/froundnx.s.yaml"
+      },
+      "fsgnj.s": {
+        "$ref": "inst/F/fsgnj.s.yaml"
+      },
+      "fsgnjn.s": {
+        "$ref": "inst/F/fsgnjn.s.yaml"
+      },
+      "fsgnjx.s": {
+        "$ref": "inst/F/fsgnjx.s.yaml"
+      },
+      "fsqrt.s": {
+        "$ref": "inst/F/fsqrt.s.yaml"
+      },
+      "fsub.s": {
+        "$ref": "inst/F/fsub.s.yaml"
+      },
+      "fsw": {
+        "$ref": "inst/F/fsw.yaml"
+      }
+    },
+    "H": {
+      "hfence.gvma": {
+        "$ref": "inst/H/hfence.gvma.yaml"
+      },
+      "hfence.vvma": {
+        "$ref": "inst/H/hfence.vvma.yaml"
+      },
+      "hlv.b": {
+        "$ref": "inst/H/hlv.b.yaml"
+      },
+      "hlv.bu": {
+        "$ref": "inst/H/hlv.bu.yaml"
+      },
+      "hlv.d": {
+        "$ref": "inst/H/hlv.d.yaml"
+      },
+      "hlv.h": {
+        "$ref": "inst/H/hlv.h.yaml"
+      },
+      "hlv.hu": {
+        "$ref": "inst/H/hlv.hu.yaml"
+      },
+      "hlv.w": {
+        "$ref": "inst/H/hlv.w.yaml"
+      },
+      "hlv.wu": {
+        "$ref": "inst/H/hlv.wu.yaml"
+      },
+      "hlvx.hu": {
+        "$ref": "inst/H/hlvx.hu.yaml"
+      },
+      "hlvx.wu": {
+        "$ref": "inst/H/hlvx.wu.yaml"
+      },
+      "hsv.b": {
+        "$ref": "inst/H/hsv.b.yaml"
+      },
+      "hsv.d": {
+        "$ref": "inst/H/hsv.d.yaml"
+      },
+      "hsv.h": {
+        "$ref": "inst/H/hsv.h.yaml"
+      },
+      "hsv.w": {
+        "$ref": "inst/H/hsv.w.yaml"
+      }
+    },
+    "I": {
+      "add": {
+        "$ref": "inst/I/add.yaml"
+      },
+      "addi": {
+        "$ref": "inst/I/addi.yaml"
+      },
+      "addiw": {
+        "$ref": "inst/I/addiw.yaml"
+      },
+      "addw": {
+        "$ref": "inst/I/addw.yaml"
+      },
+      "and": {
+        "$ref": "inst/I/and.yaml"
+      },
+      "andi": {
+        "$ref": "inst/I/andi.yaml"
+      },
+      "auipc": {
+        "$ref": "inst/I/auipc.yaml"
+      },
+      "beq": {
+        "$ref": "inst/I/beq.yaml"
+      },
+      "bge": {
+        "$ref": "inst/I/bge.yaml"
+      },
+      "bgeu": {
+        "$ref": "inst/I/bgeu.yaml"
+      },
+      "blt": {
+        "$ref": "inst/I/blt.yaml"
+      },
+      "bltu": {
+        "$ref": "inst/I/bltu.yaml"
+      },
+      "bne": {
+        "$ref": "inst/I/bne.yaml"
+      },
+      "ebreak": {
+        "$ref": "inst/I/ebreak.yaml"
+      },
+      "ecall": {
+        "$ref": "inst/I/ecall.yaml"
+      },
+      "fence": {
+        "$ref": "inst/I/fence.yaml"
+      },
+      "jal": {
+        "$ref": "inst/I/jal.yaml"
+      },
+      "jalr": {
+        "$ref": "inst/I/jalr.yaml"
+      },
+      "lb": {
+        "$ref": "inst/I/lb.yaml"
+      },
+      "lbu": {
+        "$ref": "inst/I/lbu.yaml"
+      },
+      "ld": {
+        "$ref": "inst/I/ld.yaml"
+      },
+      "lh": {
+        "$ref": "inst/I/lh.yaml"
+      },
+      "lhu": {
+        "$ref": "inst/I/lhu.yaml"
+      },
+      "lui": {
+        "$ref": "inst/I/lui.yaml"
+      },
+      "lw": {
+        "$ref": "inst/I/lw.yaml"
+      },
+      "lwu": {
+        "$ref": "inst/I/lwu.yaml"
+      },
+      "mret": {
+        "$ref": "inst/I/mret.yaml"
+      },
+      "or": {
+        "$ref": "inst/I/or.yaml"
+      },
+      "ori": {
+        "$ref": "inst/I/ori.yaml"
+      },
+      "sb": {
+        "$ref": "inst/I/sb.yaml"
+      },
+      "sd": {
+        "$ref": "inst/I/sd.yaml"
+      },
+      "sh": {
+        "$ref": "inst/I/sh.yaml"
+      },
+      "sll": {
+        "$ref": "inst/I/sll.yaml"
+      },
+      "slli": {
+        "$ref": "inst/I/slli.yaml"
+      },
+      "slliw": {
+        "$ref": "inst/I/slliw.yaml"
+      },
+      "sllw": {
+        "$ref": "inst/I/sllw.yaml"
+      },
+      "slt": {
+        "$ref": "inst/I/slt.yaml"
+      },
+      "slti": {
+        "$ref": "inst/I/slti.yaml"
+      },
+      "sltiu": {
+        "$ref": "inst/I/sltiu.yaml"
+      },
+      "sltu": {
+        "$ref": "inst/I/sltu.yaml"
+      },
+      "sra": {
+        "$ref": "inst/I/sra.yaml"
+      },
+      "srai": {
+        "$ref": "inst/I/srai.yaml"
+      },
+      "sraiw": {
+        "$ref": "inst/I/sraiw.yaml"
+      },
+      "sraw": {
+        "$ref": "inst/I/sraw.yaml"
+      },
+      "srl": {
+        "$ref": "inst/I/srl.yaml"
+      },
+      "srli": {
+        "$ref": "inst/I/srli.yaml"
+      },
+      "srliw": {
+        "$ref": "inst/I/srliw.yaml"
+      },
+      "srlw": {
+        "$ref": "inst/I/srlw.yaml"
+      },
+      "sub": {
+        "$ref": "inst/I/sub.yaml"
+      },
+      "subw": {
+        "$ref": "inst/I/subw.yaml"
+      },
+      "sw": {
+        "$ref": "inst/I/sw.yaml"
+      },
+      "wfi": {
+        "$ref": "inst/I/wfi.yaml"
+      },
+      "xor": {
+        "$ref": "inst/I/xor.yaml"
+      },
+      "xori": {
+        "$ref": "inst/I/xori.yaml"
+      }
+    },
+    "M": {
+      "div": {
+        "$ref": "inst/M/div.yaml"
+      },
+      "divu": {
+        "$ref": "inst/M/divu.yaml"
+      },
+      "divuw": {
+        "$ref": "inst/M/divuw.yaml"
+      },
+      "divw": {
+        "$ref": "inst/M/divw.yaml"
+      },
+      "mul": {
+        "$ref": "inst/M/mul.yaml"
+      },
+      "mulh": {
+        "$ref": "inst/M/mulh.yaml"
+      },
+      "mulhsu": {
+        "$ref": "inst/M/mulhsu.yaml"
+      },
+      "mulhu": {
+        "$ref": "inst/M/mulhu.yaml"
+      },
+      "mulw": {
+        "$ref": "inst/M/mulw.yaml"
+      },
+      "rem": {
+        "$ref": "inst/M/rem.yaml"
+      },
+      "remu": {
+        "$ref": "inst/M/remu.yaml"
+      },
+      "remuw": {
+        "$ref": "inst/M/remuw.yaml"
+      },
+      "remw": {
+        "$ref": "inst/M/remw.yaml"
+      }
+    },
+    "Q": {
+      "fadd.q": {
+        "$ref": "inst/Q/fadd.q.yaml"
+      },
+      "fclass.q": {
+        "$ref": "inst/Q/fclass.q.yaml"
+      },
+      "fcvt.d.q": {
+        "$ref": "inst/Q/fcvt.d.q.yaml"
+      },
+      "fcvt.h.q": {
+        "$ref": "inst/Q/fcvt.h.q.yaml"
+      },
+      "fcvt.l.q": {
+        "$ref": "inst/Q/fcvt.l.q.yaml"
+      },
+      "fcvt.lu.q": {
+        "$ref": "inst/Q/fcvt.lu.q.yaml"
+      },
+      "fcvt.q.d": {
+        "$ref": "inst/Q/fcvt.q.d.yaml"
+      },
+      "fcvt.q.h": {
+        "$ref": "inst/Q/fcvt.q.h.yaml"
+      },
+      "fcvt.q.l": {
+        "$ref": "inst/Q/fcvt.q.l.yaml"
+      },
+      "fcvt.q.lu": {
+        "$ref": "inst/Q/fcvt.q.lu.yaml"
+      },
+      "fcvt.q.s": {
+        "$ref": "inst/Q/fcvt.q.s.yaml"
+      },
+      "fcvt.q.w": {
+        "$ref": "inst/Q/fcvt.q.w.yaml"
+      },
+      "fcvt.q.wu": {
+        "$ref": "inst/Q/fcvt.q.wu.yaml"
+      },
+      "fcvt.s.q": {
+        "$ref": "inst/Q/fcvt.s.q.yaml"
+      },
+      "fcvt.w.q": {
+        "$ref": "inst/Q/fcvt.w.q.yaml"
+      },
+      "fcvt.wu.q": {
+        "$ref": "inst/Q/fcvt.wu.q.yaml"
+      },
+      "fdiv.q": {
+        "$ref": "inst/Q/fdiv.q.yaml"
+      },
+      "feq.q": {
+        "$ref": "inst/Q/feq.q.yaml"
+      },
+      "fle.q": {
+        "$ref": "inst/Q/fle.q.yaml"
+      },
+      "fleq.q": {
+        "$ref": "inst/Q/fleq.q.yaml"
+      },
+      "fli.q": {
+        "$ref": "inst/Q/fli.q.yaml"
+      },
+      "flq": {
+        "$ref": "inst/Q/flq.yaml"
+      },
+      "flt.q": {
+        "$ref": "inst/Q/flt.q.yaml"
+      },
+      "fltq.q": {
+        "$ref": "inst/Q/fltq.q.yaml"
+      },
+      "fmadd.q": {
+        "$ref": "inst/Q/fmadd.q.yaml"
+      },
+      "fmax.q": {
+        "$ref": "inst/Q/fmax.q.yaml"
+      },
+      "fmaxm.q": {
+        "$ref": "inst/Q/fmaxm.q.yaml"
+      },
+      "fmin.q": {
+        "$ref": "inst/Q/fmin.q.yaml"
+      },
+      "fminm.q": {
+        "$ref": "inst/Q/fminm.q.yaml"
+      },
+      "fmsub.q": {
+        "$ref": "inst/Q/fmsub.q.yaml"
+      },
+      "fmul.q": {
+        "$ref": "inst/Q/fmul.q.yaml"
+      },
+      "fmvh.x.q": {
+        "$ref": "inst/Q/fmvh.x.q.yaml"
+      },
+      "fmvp.q.x": {
+        "$ref": "inst/Q/fmvp.q.x.yaml"
+      },
+      "fnmadd.q": {
+        "$ref": "inst/Q/fnmadd.q.yaml"
+      },
+      "fnmsub.q": {
+        "$ref": "inst/Q/fnmsub.q.yaml"
+      },
+      "fround.q": {
+        "$ref": "inst/Q/fround.q.yaml"
+      },
+      "froundnx.q": {
+        "$ref": "inst/Q/froundnx.q.yaml"
+      },
+      "fsgnj.q": {
+        "$ref": "inst/Q/fsgnj.q.yaml"
+      },
+      "fsgnjn.q": {
+        "$ref": "inst/Q/fsgnjn.q.yaml"
+      },
+      "fsgnjx.q": {
+        "$ref": "inst/Q/fsgnjx.q.yaml"
+      },
+      "fsq": {
+        "$ref": "inst/Q/fsq.yaml"
+      },
+      "fsqrt.q": {
+        "$ref": "inst/Q/fsqrt.q.yaml"
+      },
+      "fsub.q": {
+        "$ref": "inst/Q/fsub.q.yaml"
+      }
+    },
+    "S": {
+      "sfence.vma": {
+        "$ref": "inst/S/sfence.vma.yaml"
+      },
+      "sret": {
+        "$ref": "inst/S/sret.yaml"
+      }
+    },
+    "Sdext": {
+      "dret": {
+        "$ref": "inst/Sdext/dret.yaml"
+      }
+    },
+    "Smdbltrp": {
+      "sctrclr": {
+        "$ref": "inst/Smdbltrp/sctrclr.yaml"
+      }
+    },
+    "Smrnmi": {
+      "mnret": {
+        "$ref": "inst/Smrnmi/mnret.yaml"
+      }
+    },
+    "Svinval": {
+      "hinval.gvma": {
+        "$ref": "inst/Svinval/hinval.gvma.yaml"
+      },
+      "hinval.vvma": {
+        "$ref": "inst/Svinval/hinval.vvma.yaml"
+      },
+      "sfence.inval.ir": {
+        "$ref": "inst/Svinval/sfence.inval.ir.yaml"
+      },
+      "sfence.w.inval": {
+        "$ref": "inst/Svinval/sfence.w.inval.yaml"
+      },
+      "sinval.vma": {
+        "$ref": "inst/Svinval/sinval.vma.yaml"
+      }
+    },
+    "V": {
+      "vaadd.vv": {
+        "$ref": "inst/V/vaadd.vv.yaml"
+      },
+      "vaadd.vx": {
+        "$ref": "inst/V/vaadd.vx.yaml"
+      },
+      "vaaddu.vv": {
+        "$ref": "inst/V/vaaddu.vv.yaml"
+      },
+      "vaaddu.vx": {
+        "$ref": "inst/V/vaaddu.vx.yaml"
+      },
+      "vadc.vim": {
+        "$ref": "inst/V/vadc.vim.yaml"
+      },
+      "vadc.vvm": {
+        "$ref": "inst/V/vadc.vvm.yaml"
+      },
+      "vadc.vxm": {
+        "$ref": "inst/V/vadc.vxm.yaml"
+      },
+      "vadd.vi": {
+        "$ref": "inst/V/vadd.vi.yaml"
+      },
+      "vadd.vv": {
+        "$ref": "inst/V/vadd.vv.yaml"
+      },
+      "vadd.vx": {
+        "$ref": "inst/V/vadd.vx.yaml"
+      },
+      "vand.vi": {
+        "$ref": "inst/V/vand.vi.yaml"
+      },
+      "vand.vv": {
+        "$ref": "inst/V/vand.vv.yaml"
+      },
+      "vand.vx": {
+        "$ref": "inst/V/vand.vx.yaml"
+      },
+      "vasub.vv": {
+        "$ref": "inst/V/vasub.vv.yaml"
+      },
+      "vasub.vx": {
+        "$ref": "inst/V/vasub.vx.yaml"
+      },
+      "vasubu.vv": {
+        "$ref": "inst/V/vasubu.vv.yaml"
+      },
+      "vasubu.vx": {
+        "$ref": "inst/V/vasubu.vx.yaml"
+      },
+      "vcompress.vm": {
+        "$ref": "inst/V/vcompress.vm.yaml"
+      },
+      "vcpop.m": {
+        "$ref": "inst/V/vcpop.m.yaml"
+      },
+      "vdiv.vv": {
+        "$ref": "inst/V/vdiv.vv.yaml"
+      },
+      "vdiv.vx": {
+        "$ref": "inst/V/vdiv.vx.yaml"
+      },
+      "vdivu.vv": {
+        "$ref": "inst/V/vdivu.vv.yaml"
+      },
+      "vdivu.vx": {
+        "$ref": "inst/V/vdivu.vx.yaml"
+      },
+      "vfadd.vf": {
+        "$ref": "inst/V/vfadd.vf.yaml"
+      },
+      "vfadd.vv": {
+        "$ref": "inst/V/vfadd.vv.yaml"
+      },
+      "vfclass.v": {
+        "$ref": "inst/V/vfclass.v.yaml"
+      },
+      "vfcvt.f.x.v": {
+        "$ref": "inst/V/vfcvt.f.x.v.yaml"
+      },
+      "vfcvt.f.xu.v": {
+        "$ref": "inst/V/vfcvt.f.xu.v.yaml"
+      },
+      "vfcvt.rtz.x.f.v": {
+        "$ref": "inst/V/vfcvt.rtz.x.f.v.yaml"
+      },
+      "vfcvt.rtz.xu.f.v": {
+        "$ref": "inst/V/vfcvt.rtz.xu.f.v.yaml"
+      },
+      "vfcvt.x.f.v": {
+        "$ref": "inst/V/vfcvt.x.f.v.yaml"
+      },
+      "vfcvt.xu.f.v": {
+        "$ref": "inst/V/vfcvt.xu.f.v.yaml"
+      },
+      "vfdiv.vf": {
+        "$ref": "inst/V/vfdiv.vf.yaml"
+      },
+      "vfdiv.vv": {
+        "$ref": "inst/V/vfdiv.vv.yaml"
+      },
+      "vfirst.m": {
+        "$ref": "inst/V/vfirst.m.yaml"
+      },
+      "vfmacc.vf": {
+        "$ref": "inst/V/vfmacc.vf.yaml"
+      },
+      "vfmacc.vv": {
+        "$ref": "inst/V/vfmacc.vv.yaml"
+      },
+      "vfmadd.vf": {
+        "$ref": "inst/V/vfmadd.vf.yaml"
+      },
+      "vfmadd.vv": {
+        "$ref": "inst/V/vfmadd.vv.yaml"
+      },
+      "vfmax.vf": {
+        "$ref": "inst/V/vfmax.vf.yaml"
+      },
+      "vfmax.vv": {
+        "$ref": "inst/V/vfmax.vv.yaml"
+      },
+      "vfmerge.vfm": {
+        "$ref": "inst/V/vfmerge.vfm.yaml"
+      },
+      "vfmin.vf": {
+        "$ref": "inst/V/vfmin.vf.yaml"
+      },
+      "vfmin.vv": {
+        "$ref": "inst/V/vfmin.vv.yaml"
+      },
+      "vfmsac.vf": {
+        "$ref": "inst/V/vfmsac.vf.yaml"
+      },
+      "vfmsac.vv": {
+        "$ref": "inst/V/vfmsac.vv.yaml"
+      },
+      "vfmsub.vf": {
+        "$ref": "inst/V/vfmsub.vf.yaml"
+      },
+      "vfmsub.vv": {
+        "$ref": "inst/V/vfmsub.vv.yaml"
+      },
+      "vfmul.vf": {
+        "$ref": "inst/V/vfmul.vf.yaml"
+      },
+      "vfmul.vv": {
+        "$ref": "inst/V/vfmul.vv.yaml"
+      },
+      "vfmv.f.s": {
+        "$ref": "inst/V/vfmv.f.s.yaml"
+      },
+      "vfmv.s.f": {
+        "$ref": "inst/V/vfmv.s.f.yaml"
+      },
+      "vfmv.v.f": {
+        "$ref": "inst/V/vfmv.v.f.yaml"
+      },
+      "vfncvt.f.f.w": {
+        "$ref": "inst/V/vfncvt.f.f.w.yaml"
+      },
+      "vfncvt.f.x.w": {
+        "$ref": "inst/V/vfncvt.f.x.w.yaml"
+      },
+      "vfncvt.f.xu.w": {
+        "$ref": "inst/V/vfncvt.f.xu.w.yaml"
+      },
+      "vfncvt.rod.f.f.w": {
+        "$ref": "inst/V/vfncvt.rod.f.f.w.yaml"
+      },
+      "vfncvt.rtz.x.f.w": {
+        "$ref": "inst/V/vfncvt.rtz.x.f.w.yaml"
+      },
+      "vfncvt.rtz.xu.f.w": {
+        "$ref": "inst/V/vfncvt.rtz.xu.f.w.yaml"
+      },
+      "vfncvt.x.f.w": {
+        "$ref": "inst/V/vfncvt.x.f.w.yaml"
+      },
+      "vfncvt.xu.f.w": {
+        "$ref": "inst/V/vfncvt.xu.f.w.yaml"
+      },
+      "vfnmacc.vf": {
+        "$ref": "inst/V/vfnmacc.vf.yaml"
+      },
+      "vfnmacc.vv": {
+        "$ref": "inst/V/vfnmacc.vv.yaml"
+      },
+      "vfnmadd.vf": {
+        "$ref": "inst/V/vfnmadd.vf.yaml"
+      },
+      "vfnmadd.vv": {
+        "$ref": "inst/V/vfnmadd.vv.yaml"
+      },
+      "vfnmsac.vf": {
+        "$ref": "inst/V/vfnmsac.vf.yaml"
+      },
+      "vfnmsac.vv": {
+        "$ref": "inst/V/vfnmsac.vv.yaml"
+      },
+      "vfnmsub.vf": {
+        "$ref": "inst/V/vfnmsub.vf.yaml"
+      },
+      "vfnmsub.vv": {
+        "$ref": "inst/V/vfnmsub.vv.yaml"
+      },
+      "vfrdiv.vf": {
+        "$ref": "inst/V/vfrdiv.vf.yaml"
+      },
+      "vfrec7.v": {
+        "$ref": "inst/V/vfrec7.v.yaml"
+      },
+      "vfredmax.vs": {
+        "$ref": "inst/V/vfredmax.vs.yaml"
+      },
+      "vfredmin.vs": {
+        "$ref": "inst/V/vfredmin.vs.yaml"
+      },
+      "vfredosum.vs": {
+        "$ref": "inst/V/vfredosum.vs.yaml"
+      },
+      "vfredusum.vs": {
+        "$ref": "inst/V/vfredusum.vs.yaml"
+      },
+      "vfrsqrt7.v": {
+        "$ref": "inst/V/vfrsqrt7.v.yaml"
+      },
+      "vfrsub.vf": {
+        "$ref": "inst/V/vfrsub.vf.yaml"
+      },
+      "vfsgnj.vf": {
+        "$ref": "inst/V/vfsgnj.vf.yaml"
+      },
+      "vfsgnj.vv": {
+        "$ref": "inst/V/vfsgnj.vv.yaml"
+      },
+      "vfsgnjn.vf": {
+        "$ref": "inst/V/vfsgnjn.vf.yaml"
+      },
+      "vfsgnjn.vv": {
+        "$ref": "inst/V/vfsgnjn.vv.yaml"
+      },
+      "vfsgnjx.vf": {
+        "$ref": "inst/V/vfsgnjx.vf.yaml"
+      },
+      "vfsgnjx.vv": {
+        "$ref": "inst/V/vfsgnjx.vv.yaml"
+      },
+      "vfslide1down.vf": {
+        "$ref": "inst/V/vfslide1down.vf.yaml"
+      },
+      "vfslide1up.vf": {
+        "$ref": "inst/V/vfslide1up.vf.yaml"
+      },
+      "vfsqrt.v": {
+        "$ref": "inst/V/vfsqrt.v.yaml"
+      },
+      "vfsub.vf": {
+        "$ref": "inst/V/vfsub.vf.yaml"
+      },
+      "vfsub.vv": {
+        "$ref": "inst/V/vfsub.vv.yaml"
+      },
+      "vfwadd.vf": {
+        "$ref": "inst/V/vfwadd.vf.yaml"
+      },
+      "vfwadd.vv": {
+        "$ref": "inst/V/vfwadd.vv.yaml"
+      },
+      "vfwadd.wf": {
+        "$ref": "inst/V/vfwadd.wf.yaml"
+      },
+      "vfwadd.wv": {
+        "$ref": "inst/V/vfwadd.wv.yaml"
+      },
+      "vfwcvt.f.f.v": {
+        "$ref": "inst/V/vfwcvt.f.f.v.yaml"
+      },
+      "vfwcvt.f.x.v": {
+        "$ref": "inst/V/vfwcvt.f.x.v.yaml"
+      },
+      "vfwcvt.f.xu.v": {
+        "$ref": "inst/V/vfwcvt.f.xu.v.yaml"
+      },
+      "vfwcvt.rtz.x.f.v": {
+        "$ref": "inst/V/vfwcvt.rtz.x.f.v.yaml"
+      },
+      "vfwcvt.rtz.xu.f.v": {
+        "$ref": "inst/V/vfwcvt.rtz.xu.f.v.yaml"
+      },
+      "vfwcvt.x.f.v": {
+        "$ref": "inst/V/vfwcvt.x.f.v.yaml"
+      },
+      "vfwcvt.xu.f.v": {
+        "$ref": "inst/V/vfwcvt.xu.f.v.yaml"
+      },
+      "vfwmacc.vf": {
+        "$ref": "inst/V/vfwmacc.vf.yaml"
+      },
+      "vfwmacc.vv": {
+        "$ref": "inst/V/vfwmacc.vv.yaml"
+      },
+      "vfwmsac.vf": {
+        "$ref": "inst/V/vfwmsac.vf.yaml"
+      },
+      "vfwmsac.vv": {
+        "$ref": "inst/V/vfwmsac.vv.yaml"
+      },
+      "vfwmul.vf": {
+        "$ref": "inst/V/vfwmul.vf.yaml"
+      },
+      "vfwmul.vv": {
+        "$ref": "inst/V/vfwmul.vv.yaml"
+      },
+      "vfwnmacc.vf": {
+        "$ref": "inst/V/vfwnmacc.vf.yaml"
+      },
+      "vfwnmacc.vv": {
+        "$ref": "inst/V/vfwnmacc.vv.yaml"
+      },
+      "vfwnmsac.vf": {
+        "$ref": "inst/V/vfwnmsac.vf.yaml"
+      },
+      "vfwnmsac.vv": {
+        "$ref": "inst/V/vfwnmsac.vv.yaml"
+      },
+      "vfwredosum.vs": {
+        "$ref": "inst/V/vfwredosum.vs.yaml"
+      },
+      "vfwredusum.vs": {
+        "$ref": "inst/V/vfwredusum.vs.yaml"
+      },
+      "vfwsub.vf": {
+        "$ref": "inst/V/vfwsub.vf.yaml"
+      },
+      "vfwsub.vv": {
+        "$ref": "inst/V/vfwsub.vv.yaml"
+      },
+      "vfwsub.wf": {
+        "$ref": "inst/V/vfwsub.wf.yaml"
+      },
+      "vfwsub.wv": {
+        "$ref": "inst/V/vfwsub.wv.yaml"
+      },
+      "vid.v": {
+        "$ref": "inst/V/vid.v.yaml"
+      },
+      "viota.m": {
+        "$ref": "inst/V/viota.m.yaml"
+      },
+      "vl1re16.v": {
+        "$ref": "inst/V/vl1re16.v.yaml"
+      },
+      "vl1re32.v": {
+        "$ref": "inst/V/vl1re32.v.yaml"
+      },
+      "vl1re64.v": {
+        "$ref": "inst/V/vl1re64.v.yaml"
+      },
+      "vl1re8.v": {
+        "$ref": "inst/V/vl1re8.v.yaml"
+      },
+      "vl2re16.v": {
+        "$ref": "inst/V/vl2re16.v.yaml"
+      },
+      "vl2re32.v": {
+        "$ref": "inst/V/vl2re32.v.yaml"
+      },
+      "vl2re64.v": {
+        "$ref": "inst/V/vl2re64.v.yaml"
+      },
+      "vl2re8.v": {
+        "$ref": "inst/V/vl2re8.v.yaml"
+      },
+      "vl4re16.v": {
+        "$ref": "inst/V/vl4re16.v.yaml"
+      },
+      "vl4re32.v": {
+        "$ref": "inst/V/vl4re32.v.yaml"
+      },
+      "vl4re64.v": {
+        "$ref": "inst/V/vl4re64.v.yaml"
+      },
+      "vl4re8.v": {
+        "$ref": "inst/V/vl4re8.v.yaml"
+      },
+      "vl8re16.v": {
+        "$ref": "inst/V/vl8re16.v.yaml"
+      },
+      "vl8re32.v": {
+        "$ref": "inst/V/vl8re32.v.yaml"
+      },
+      "vl8re64.v": {
+        "$ref": "inst/V/vl8re64.v.yaml"
+      },
+      "vl8re8.v": {
+        "$ref": "inst/V/vl8re8.v.yaml"
+      },
+      "vle16.v": {
+        "$ref": "inst/V/vle16.v.yaml"
+      },
+      "vle16ff.v": {
+        "$ref": "inst/V/vle16ff.v.yaml"
+      },
+      "vle32.v": {
+        "$ref": "inst/V/vle32.v.yaml"
+      },
+      "vle32ff.v": {
+        "$ref": "inst/V/vle32ff.v.yaml"
+      },
+      "vle64.v": {
+        "$ref": "inst/V/vle64.v.yaml"
+      },
+      "vle64ff.v": {
+        "$ref": "inst/V/vle64ff.v.yaml"
+      },
+      "vle8.v": {
+        "$ref": "inst/V/vle8.v.yaml"
+      },
+      "vle8ff.v": {
+        "$ref": "inst/V/vle8ff.v.yaml"
+      },
+      "vlm.v": {
+        "$ref": "inst/V/vlm.v.yaml"
+      },
+      "vloxei16.v": {
+        "$ref": "inst/V/vloxei16.v.yaml"
+      },
+      "vloxei32.v": {
+        "$ref": "inst/V/vloxei32.v.yaml"
+      },
+      "vloxei64.v": {
+        "$ref": "inst/V/vloxei64.v.yaml"
+      },
+      "vloxei8.v": {
+        "$ref": "inst/V/vloxei8.v.yaml"
+      },
+      "vloxseg2ei16.v": {
+        "$ref": "inst/V/vloxseg2ei16.v.yaml"
+      },
+      "vloxseg2ei32.v": {
+        "$ref": "inst/V/vloxseg2ei32.v.yaml"
+      },
+      "vloxseg2ei64.v": {
+        "$ref": "inst/V/vloxseg2ei64.v.yaml"
+      },
+      "vloxseg2ei8.v": {
+        "$ref": "inst/V/vloxseg2ei8.v.yaml"
+      },
+      "vloxseg3ei16.v": {
+        "$ref": "inst/V/vloxseg3ei16.v.yaml"
+      },
+      "vloxseg3ei32.v": {
+        "$ref": "inst/V/vloxseg3ei32.v.yaml"
+      },
+      "vloxseg3ei64.v": {
+        "$ref": "inst/V/vloxseg3ei64.v.yaml"
+      },
+      "vloxseg3ei8.v": {
+        "$ref": "inst/V/vloxseg3ei8.v.yaml"
+      },
+      "vloxseg4ei16.v": {
+        "$ref": "inst/V/vloxseg4ei16.v.yaml"
+      },
+      "vloxseg4ei32.v": {
+        "$ref": "inst/V/vloxseg4ei32.v.yaml"
+      },
+      "vloxseg4ei64.v": {
+        "$ref": "inst/V/vloxseg4ei64.v.yaml"
+      },
+      "vloxseg4ei8.v": {
+        "$ref": "inst/V/vloxseg4ei8.v.yaml"
+      },
+      "vloxseg5ei16.v": {
+        "$ref": "inst/V/vloxseg5ei16.v.yaml"
+      },
+      "vloxseg5ei32.v": {
+        "$ref": "inst/V/vloxseg5ei32.v.yaml"
+      },
+      "vloxseg5ei64.v": {
+        "$ref": "inst/V/vloxseg5ei64.v.yaml"
+      },
+      "vloxseg5ei8.v": {
+        "$ref": "inst/V/vloxseg5ei8.v.yaml"
+      },
+      "vloxseg6ei16.v": {
+        "$ref": "inst/V/vloxseg6ei16.v.yaml"
+      },
+      "vloxseg6ei32.v": {
+        "$ref": "inst/V/vloxseg6ei32.v.yaml"
+      },
+      "vloxseg6ei64.v": {
+        "$ref": "inst/V/vloxseg6ei64.v.yaml"
+      },
+      "vloxseg6ei8.v": {
+        "$ref": "inst/V/vloxseg6ei8.v.yaml"
+      },
+      "vloxseg7ei16.v": {
+        "$ref": "inst/V/vloxseg7ei16.v.yaml"
+      },
+      "vloxseg7ei32.v": {
+        "$ref": "inst/V/vloxseg7ei32.v.yaml"
+      },
+      "vloxseg7ei64.v": {
+        "$ref": "inst/V/vloxseg7ei64.v.yaml"
+      },
+      "vloxseg7ei8.v": {
+        "$ref": "inst/V/vloxseg7ei8.v.yaml"
+      },
+      "vloxseg8ei16.v": {
+        "$ref": "inst/V/vloxseg8ei16.v.yaml"
+      },
+      "vloxseg8ei32.v": {
+        "$ref": "inst/V/vloxseg8ei32.v.yaml"
+      },
+      "vloxseg8ei64.v": {
+        "$ref": "inst/V/vloxseg8ei64.v.yaml"
+      },
+      "vloxseg8ei8.v": {
+        "$ref": "inst/V/vloxseg8ei8.v.yaml"
+      },
+      "vlse16.v": {
+        "$ref": "inst/V/vlse16.v.yaml"
+      },
+      "vlse32.v": {
+        "$ref": "inst/V/vlse32.v.yaml"
+      },
+      "vlse64.v": {
+        "$ref": "inst/V/vlse64.v.yaml"
+      },
+      "vlse8.v": {
+        "$ref": "inst/V/vlse8.v.yaml"
+      },
+      "vlseg2e16.v": {
+        "$ref": "inst/V/vlseg2e16.v.yaml"
+      },
+      "vlseg2e16ff.v": {
+        "$ref": "inst/V/vlseg2e16ff.v.yaml"
+      },
+      "vlseg2e32.v": {
+        "$ref": "inst/V/vlseg2e32.v.yaml"
+      },
+      "vlseg2e32ff.v": {
+        "$ref": "inst/V/vlseg2e32ff.v.yaml"
+      },
+      "vlseg2e64.v": {
+        "$ref": "inst/V/vlseg2e64.v.yaml"
+      },
+      "vlseg2e64ff.v": {
+        "$ref": "inst/V/vlseg2e64ff.v.yaml"
+      },
+      "vlseg2e8.v": {
+        "$ref": "inst/V/vlseg2e8.v.yaml"
+      },
+      "vlseg2e8ff.v": {
+        "$ref": "inst/V/vlseg2e8ff.v.yaml"
+      },
+      "vlseg3e16.v": {
+        "$ref": "inst/V/vlseg3e16.v.yaml"
+      },
+      "vlseg3e16ff.v": {
+        "$ref": "inst/V/vlseg3e16ff.v.yaml"
+      },
+      "vlseg3e32.v": {
+        "$ref": "inst/V/vlseg3e32.v.yaml"
+      },
+      "vlseg3e32ff.v": {
+        "$ref": "inst/V/vlseg3e32ff.v.yaml"
+      },
+      "vlseg3e64.v": {
+        "$ref": "inst/V/vlseg3e64.v.yaml"
+      },
+      "vlseg3e64ff.v": {
+        "$ref": "inst/V/vlseg3e64ff.v.yaml"
+      },
+      "vlseg3e8.v": {
+        "$ref": "inst/V/vlseg3e8.v.yaml"
+      },
+      "vlseg3e8ff.v": {
+        "$ref": "inst/V/vlseg3e8ff.v.yaml"
+      },
+      "vlseg4e16.v": {
+        "$ref": "inst/V/vlseg4e16.v.yaml"
+      },
+      "vlseg4e16ff.v": {
+        "$ref": "inst/V/vlseg4e16ff.v.yaml"
+      },
+      "vlseg4e32.v": {
+        "$ref": "inst/V/vlseg4e32.v.yaml"
+      },
+      "vlseg4e32ff.v": {
+        "$ref": "inst/V/vlseg4e32ff.v.yaml"
+      },
+      "vlseg4e64.v": {
+        "$ref": "inst/V/vlseg4e64.v.yaml"
+      },
+      "vlseg4e64ff.v": {
+        "$ref": "inst/V/vlseg4e64ff.v.yaml"
+      },
+      "vlseg4e8.v": {
+        "$ref": "inst/V/vlseg4e8.v.yaml"
+      },
+      "vlseg4e8ff.v": {
+        "$ref": "inst/V/vlseg4e8ff.v.yaml"
+      },
+      "vlseg5e16.v": {
+        "$ref": "inst/V/vlseg5e16.v.yaml"
+      },
+      "vlseg5e16ff.v": {
+        "$ref": "inst/V/vlseg5e16ff.v.yaml"
+      },
+      "vlseg5e32.v": {
+        "$ref": "inst/V/vlseg5e32.v.yaml"
+      },
+      "vlseg5e32ff.v": {
+        "$ref": "inst/V/vlseg5e32ff.v.yaml"
+      },
+      "vlseg5e64.v": {
+        "$ref": "inst/V/vlseg5e64.v.yaml"
+      },
+      "vlseg5e64ff.v": {
+        "$ref": "inst/V/vlseg5e64ff.v.yaml"
+      },
+      "vlseg5e8.v": {
+        "$ref": "inst/V/vlseg5e8.v.yaml"
+      },
+      "vlseg5e8ff.v": {
+        "$ref": "inst/V/vlseg5e8ff.v.yaml"
+      },
+      "vlseg6e16.v": {
+        "$ref": "inst/V/vlseg6e16.v.yaml"
+      },
+      "vlseg6e16ff.v": {
+        "$ref": "inst/V/vlseg6e16ff.v.yaml"
+      },
+      "vlseg6e32.v": {
+        "$ref": "inst/V/vlseg6e32.v.yaml"
+      },
+      "vlseg6e32ff.v": {
+        "$ref": "inst/V/vlseg6e32ff.v.yaml"
+      },
+      "vlseg6e64.v": {
+        "$ref": "inst/V/vlseg6e64.v.yaml"
+      },
+      "vlseg6e64ff.v": {
+        "$ref": "inst/V/vlseg6e64ff.v.yaml"
+      },
+      "vlseg6e8.v": {
+        "$ref": "inst/V/vlseg6e8.v.yaml"
+      },
+      "vlseg6e8ff.v": {
+        "$ref": "inst/V/vlseg6e8ff.v.yaml"
+      },
+      "vlseg7e16.v": {
+        "$ref": "inst/V/vlseg7e16.v.yaml"
+      },
+      "vlseg7e16ff.v": {
+        "$ref": "inst/V/vlseg7e16ff.v.yaml"
+      },
+      "vlseg7e32.v": {
+        "$ref": "inst/V/vlseg7e32.v.yaml"
+      },
+      "vlseg7e32ff.v": {
+        "$ref": "inst/V/vlseg7e32ff.v.yaml"
+      },
+      "vlseg7e64.v": {
+        "$ref": "inst/V/vlseg7e64.v.yaml"
+      },
+      "vlseg7e64ff.v": {
+        "$ref": "inst/V/vlseg7e64ff.v.yaml"
+      },
+      "vlseg7e8.v": {
+        "$ref": "inst/V/vlseg7e8.v.yaml"
+      },
+      "vlseg7e8ff.v": {
+        "$ref": "inst/V/vlseg7e8ff.v.yaml"
+      },
+      "vlseg8e16.v": {
+        "$ref": "inst/V/vlseg8e16.v.yaml"
+      },
+      "vlseg8e16ff.v": {
+        "$ref": "inst/V/vlseg8e16ff.v.yaml"
+      },
+      "vlseg8e32.v": {
+        "$ref": "inst/V/vlseg8e32.v.yaml"
+      },
+      "vlseg8e32ff.v": {
+        "$ref": "inst/V/vlseg8e32ff.v.yaml"
+      },
+      "vlseg8e64.v": {
+        "$ref": "inst/V/vlseg8e64.v.yaml"
+      },
+      "vlseg8e64ff.v": {
+        "$ref": "inst/V/vlseg8e64ff.v.yaml"
+      },
+      "vlseg8e8.v": {
+        "$ref": "inst/V/vlseg8e8.v.yaml"
+      },
+      "vlseg8e8ff.v": {
+        "$ref": "inst/V/vlseg8e8ff.v.yaml"
+      },
+      "vlsseg2e16.v": {
+        "$ref": "inst/V/vlsseg2e16.v.yaml"
+      },
+      "vlsseg2e32.v": {
+        "$ref": "inst/V/vlsseg2e32.v.yaml"
+      },
+      "vlsseg2e64.v": {
+        "$ref": "inst/V/vlsseg2e64.v.yaml"
+      },
+      "vlsseg2e8.v": {
+        "$ref": "inst/V/vlsseg2e8.v.yaml"
+      },
+      "vlsseg3e16.v": {
+        "$ref": "inst/V/vlsseg3e16.v.yaml"
+      },
+      "vlsseg3e32.v": {
+        "$ref": "inst/V/vlsseg3e32.v.yaml"
+      },
+      "vlsseg3e64.v": {
+        "$ref": "inst/V/vlsseg3e64.v.yaml"
+      },
+      "vlsseg3e8.v": {
+        "$ref": "inst/V/vlsseg3e8.v.yaml"
+      },
+      "vlsseg4e16.v": {
+        "$ref": "inst/V/vlsseg4e16.v.yaml"
+      },
+      "vlsseg4e32.v": {
+        "$ref": "inst/V/vlsseg4e32.v.yaml"
+      },
+      "vlsseg4e64.v": {
+        "$ref": "inst/V/vlsseg4e64.v.yaml"
+      },
+      "vlsseg4e8.v": {
+        "$ref": "inst/V/vlsseg4e8.v.yaml"
+      },
+      "vlsseg5e16.v": {
+        "$ref": "inst/V/vlsseg5e16.v.yaml"
+      },
+      "vlsseg5e32.v": {
+        "$ref": "inst/V/vlsseg5e32.v.yaml"
+      },
+      "vlsseg5e64.v": {
+        "$ref": "inst/V/vlsseg5e64.v.yaml"
+      },
+      "vlsseg5e8.v": {
+        "$ref": "inst/V/vlsseg5e8.v.yaml"
+      },
+      "vlsseg6e16.v": {
+        "$ref": "inst/V/vlsseg6e16.v.yaml"
+      },
+      "vlsseg6e32.v": {
+        "$ref": "inst/V/vlsseg6e32.v.yaml"
+      },
+      "vlsseg6e64.v": {
+        "$ref": "inst/V/vlsseg6e64.v.yaml"
+      },
+      "vlsseg6e8.v": {
+        "$ref": "inst/V/vlsseg6e8.v.yaml"
+      },
+      "vlsseg7e16.v": {
+        "$ref": "inst/V/vlsseg7e16.v.yaml"
+      },
+      "vlsseg7e32.v": {
+        "$ref": "inst/V/vlsseg7e32.v.yaml"
+      },
+      "vlsseg7e64.v": {
+        "$ref": "inst/V/vlsseg7e64.v.yaml"
+      },
+      "vlsseg7e8.v": {
+        "$ref": "inst/V/vlsseg7e8.v.yaml"
+      },
+      "vlsseg8e16.v": {
+        "$ref": "inst/V/vlsseg8e16.v.yaml"
+      },
+      "vlsseg8e32.v": {
+        "$ref": "inst/V/vlsseg8e32.v.yaml"
+      },
+      "vlsseg8e64.v": {
+        "$ref": "inst/V/vlsseg8e64.v.yaml"
+      },
+      "vlsseg8e8.v": {
+        "$ref": "inst/V/vlsseg8e8.v.yaml"
+      },
+      "vluxei16.v": {
+        "$ref": "inst/V/vluxei16.v.yaml"
+      },
+      "vluxei32.v": {
+        "$ref": "inst/V/vluxei32.v.yaml"
+      },
+      "vluxei64.v": {
+        "$ref": "inst/V/vluxei64.v.yaml"
+      },
+      "vluxei8.v": {
+        "$ref": "inst/V/vluxei8.v.yaml"
+      },
+      "vluxseg2ei16.v": {
+        "$ref": "inst/V/vluxseg2ei16.v.yaml"
+      },
+      "vluxseg2ei32.v": {
+        "$ref": "inst/V/vluxseg2ei32.v.yaml"
+      },
+      "vluxseg2ei64.v": {
+        "$ref": "inst/V/vluxseg2ei64.v.yaml"
+      },
+      "vluxseg2ei8.v": {
+        "$ref": "inst/V/vluxseg2ei8.v.yaml"
+      },
+      "vluxseg3ei16.v": {
+        "$ref": "inst/V/vluxseg3ei16.v.yaml"
+      },
+      "vluxseg3ei32.v": {
+        "$ref": "inst/V/vluxseg3ei32.v.yaml"
+      },
+      "vluxseg3ei64.v": {
+        "$ref": "inst/V/vluxseg3ei64.v.yaml"
+      },
+      "vluxseg3ei8.v": {
+        "$ref": "inst/V/vluxseg3ei8.v.yaml"
+      },
+      "vluxseg4ei16.v": {
+        "$ref": "inst/V/vluxseg4ei16.v.yaml"
+      },
+      "vluxseg4ei32.v": {
+        "$ref": "inst/V/vluxseg4ei32.v.yaml"
+      },
+      "vluxseg4ei64.v": {
+        "$ref": "inst/V/vluxseg4ei64.v.yaml"
+      },
+      "vluxseg4ei8.v": {
+        "$ref": "inst/V/vluxseg4ei8.v.yaml"
+      },
+      "vluxseg5ei16.v": {
+        "$ref": "inst/V/vluxseg5ei16.v.yaml"
+      },
+      "vluxseg5ei32.v": {
+        "$ref": "inst/V/vluxseg5ei32.v.yaml"
+      },
+      "vluxseg5ei64.v": {
+        "$ref": "inst/V/vluxseg5ei64.v.yaml"
+      },
+      "vluxseg5ei8.v": {
+        "$ref": "inst/V/vluxseg5ei8.v.yaml"
+      },
+      "vluxseg6ei16.v": {
+        "$ref": "inst/V/vluxseg6ei16.v.yaml"
+      },
+      "vluxseg6ei32.v": {
+        "$ref": "inst/V/vluxseg6ei32.v.yaml"
+      },
+      "vluxseg6ei64.v": {
+        "$ref": "inst/V/vluxseg6ei64.v.yaml"
+      },
+      "vluxseg6ei8.v": {
+        "$ref": "inst/V/vluxseg6ei8.v.yaml"
+      },
+      "vluxseg7ei16.v": {
+        "$ref": "inst/V/vluxseg7ei16.v.yaml"
+      },
+      "vluxseg7ei32.v": {
+        "$ref": "inst/V/vluxseg7ei32.v.yaml"
+      },
+      "vluxseg7ei64.v": {
+        "$ref": "inst/V/vluxseg7ei64.v.yaml"
+      },
+      "vluxseg7ei8.v": {
+        "$ref": "inst/V/vluxseg7ei8.v.yaml"
+      },
+      "vluxseg8ei16.v": {
+        "$ref": "inst/V/vluxseg8ei16.v.yaml"
+      },
+      "vluxseg8ei32.v": {
+        "$ref": "inst/V/vluxseg8ei32.v.yaml"
+      },
+      "vluxseg8ei64.v": {
+        "$ref": "inst/V/vluxseg8ei64.v.yaml"
+      },
+      "vluxseg8ei8.v": {
+        "$ref": "inst/V/vluxseg8ei8.v.yaml"
+      },
+      "vmacc.vv": {
+        "$ref": "inst/V/vmacc.vv.yaml"
+      },
+      "vmacc.vx": {
+        "$ref": "inst/V/vmacc.vx.yaml"
+      },
+      "vmadc.vi": {
+        "$ref": "inst/V/vmadc.vi.yaml"
+      },
+      "vmadc.vim": {
+        "$ref": "inst/V/vmadc.vim.yaml"
+      },
+      "vmadc.vv": {
+        "$ref": "inst/V/vmadc.vv.yaml"
+      },
+      "vmadc.vvm": {
+        "$ref": "inst/V/vmadc.vvm.yaml"
+      },
+      "vmadc.vx": {
+        "$ref": "inst/V/vmadc.vx.yaml"
+      },
+      "vmadc.vxm": {
+        "$ref": "inst/V/vmadc.vxm.yaml"
+      },
+      "vmadd.vv": {
+        "$ref": "inst/V/vmadd.vv.yaml"
+      },
+      "vmadd.vx": {
+        "$ref": "inst/V/vmadd.vx.yaml"
+      },
+      "vmand.mm": {
+        "$ref": "inst/V/vmand.mm.yaml"
+      },
+      "vmandn.mm": {
+        "$ref": "inst/V/vmandn.mm.yaml"
+      },
+      "vmax.vv": {
+        "$ref": "inst/V/vmax.vv.yaml"
+      },
+      "vmax.vx": {
+        "$ref": "inst/V/vmax.vx.yaml"
+      },
+      "vmaxu.vv": {
+        "$ref": "inst/V/vmaxu.vv.yaml"
+      },
+      "vmaxu.vx": {
+        "$ref": "inst/V/vmaxu.vx.yaml"
+      },
+      "vmerge.vim": {
+        "$ref": "inst/V/vmerge.vim.yaml"
+      },
+      "vmerge.vvm": {
+        "$ref": "inst/V/vmerge.vvm.yaml"
+      },
+      "vmerge.vxm": {
+        "$ref": "inst/V/vmerge.vxm.yaml"
+      },
+      "vmfeq.vf": {
+        "$ref": "inst/V/vmfeq.vf.yaml"
+      },
+      "vmfeq.vv": {
+        "$ref": "inst/V/vmfeq.vv.yaml"
+      },
+      "vmfge.vf": {
+        "$ref": "inst/V/vmfge.vf.yaml"
+      },
+      "vmfgt.vf": {
+        "$ref": "inst/V/vmfgt.vf.yaml"
+      },
+      "vmfle.vf": {
+        "$ref": "inst/V/vmfle.vf.yaml"
+      },
+      "vmfle.vv": {
+        "$ref": "inst/V/vmfle.vv.yaml"
+      },
+      "vmflt.vf": {
+        "$ref": "inst/V/vmflt.vf.yaml"
+      },
+      "vmflt.vv": {
+        "$ref": "inst/V/vmflt.vv.yaml"
+      },
+      "vmfne.vf": {
+        "$ref": "inst/V/vmfne.vf.yaml"
+      },
+      "vmfne.vv": {
+        "$ref": "inst/V/vmfne.vv.yaml"
+      },
+      "vmin.vv": {
+        "$ref": "inst/V/vmin.vv.yaml"
+      },
+      "vmin.vx": {
+        "$ref": "inst/V/vmin.vx.yaml"
+      },
+      "vminu.vv": {
+        "$ref": "inst/V/vminu.vv.yaml"
+      },
+      "vminu.vx": {
+        "$ref": "inst/V/vminu.vx.yaml"
+      },
+      "vmnand.mm": {
+        "$ref": "inst/V/vmnand.mm.yaml"
+      },
+      "vmnor.mm": {
+        "$ref": "inst/V/vmnor.mm.yaml"
+      },
+      "vmor.mm": {
+        "$ref": "inst/V/vmor.mm.yaml"
+      },
+      "vmorn.mm": {
+        "$ref": "inst/V/vmorn.mm.yaml"
+      },
+      "vmsbc.vv": {
+        "$ref": "inst/V/vmsbc.vv.yaml"
+      },
+      "vmsbc.vvm": {
+        "$ref": "inst/V/vmsbc.vvm.yaml"
+      },
+      "vmsbc.vx": {
+        "$ref": "inst/V/vmsbc.vx.yaml"
+      },
+      "vmsbc.vxm": {
+        "$ref": "inst/V/vmsbc.vxm.yaml"
+      },
+      "vmsbf.m": {
+        "$ref": "inst/V/vmsbf.m.yaml"
+      },
+      "vmseq.vi": {
+        "$ref": "inst/V/vmseq.vi.yaml"
+      },
+      "vmseq.vv": {
+        "$ref": "inst/V/vmseq.vv.yaml"
+      },
+      "vmseq.vx": {
+        "$ref": "inst/V/vmseq.vx.yaml"
+      },
+      "vmsgt.vi": {
+        "$ref": "inst/V/vmsgt.vi.yaml"
+      },
+      "vmsgt.vx": {
+        "$ref": "inst/V/vmsgt.vx.yaml"
+      },
+      "vmsgtu.vi": {
+        "$ref": "inst/V/vmsgtu.vi.yaml"
+      },
+      "vmsgtu.vx": {
+        "$ref": "inst/V/vmsgtu.vx.yaml"
+      },
+      "vmsif.m": {
+        "$ref": "inst/V/vmsif.m.yaml"
+      },
+      "vmsle.vi": {
+        "$ref": "inst/V/vmsle.vi.yaml"
+      },
+      "vmsle.vv": {
+        "$ref": "inst/V/vmsle.vv.yaml"
+      },
+      "vmsle.vx": {
+        "$ref": "inst/V/vmsle.vx.yaml"
+      },
+      "vmsleu.vi": {
+        "$ref": "inst/V/vmsleu.vi.yaml"
+      },
+      "vmsleu.vv": {
+        "$ref": "inst/V/vmsleu.vv.yaml"
+      },
+      "vmsleu.vx": {
+        "$ref": "inst/V/vmsleu.vx.yaml"
+      },
+      "vmslt.vv": {
+        "$ref": "inst/V/vmslt.vv.yaml"
+      },
+      "vmslt.vx": {
+        "$ref": "inst/V/vmslt.vx.yaml"
+      },
+      "vmsltu.vv": {
+        "$ref": "inst/V/vmsltu.vv.yaml"
+      },
+      "vmsltu.vx": {
+        "$ref": "inst/V/vmsltu.vx.yaml"
+      },
+      "vmsne.vi": {
+        "$ref": "inst/V/vmsne.vi.yaml"
+      },
+      "vmsne.vv": {
+        "$ref": "inst/V/vmsne.vv.yaml"
+      },
+      "vmsne.vx": {
+        "$ref": "inst/V/vmsne.vx.yaml"
+      },
+      "vmsof.m": {
+        "$ref": "inst/V/vmsof.m.yaml"
+      },
+      "vmul.vv": {
+        "$ref": "inst/V/vmul.vv.yaml"
+      },
+      "vmul.vx": {
+        "$ref": "inst/V/vmul.vx.yaml"
+      },
+      "vmulh.vv": {
+        "$ref": "inst/V/vmulh.vv.yaml"
+      },
+      "vmulh.vx": {
+        "$ref": "inst/V/vmulh.vx.yaml"
+      },
+      "vmulhsu.vv": {
+        "$ref": "inst/V/vmulhsu.vv.yaml"
+      },
+      "vmulhsu.vx": {
+        "$ref": "inst/V/vmulhsu.vx.yaml"
+      },
+      "vmulhu.vv": {
+        "$ref": "inst/V/vmulhu.vv.yaml"
+      },
+      "vmulhu.vx": {
+        "$ref": "inst/V/vmulhu.vx.yaml"
+      },
+      "vmv.s.x": {
+        "$ref": "inst/V/vmv.s.x.yaml"
+      },
+      "vmv.v.i": {
+        "$ref": "inst/V/vmv.v.i.yaml"
+      },
+      "vmv.v.v": {
+        "$ref": "inst/V/vmv.v.v.yaml"
+      },
+      "vmv.v.x": {
+        "$ref": "inst/V/vmv.v.x.yaml"
+      },
+      "vmv.x.s": {
+        "$ref": "inst/V/vmv.x.s.yaml"
+      },
+      "vmv1r.v": {
+        "$ref": "inst/V/vmv1r.v.yaml"
+      },
+      "vmv2r.v": {
+        "$ref": "inst/V/vmv2r.v.yaml"
+      },
+      "vmv4r.v": {
+        "$ref": "inst/V/vmv4r.v.yaml"
+      },
+      "vmv8r.v": {
+        "$ref": "inst/V/vmv8r.v.yaml"
+      },
+      "vmxnor.mm": {
+        "$ref": "inst/V/vmxnor.mm.yaml"
+      },
+      "vmxor.mm": {
+        "$ref": "inst/V/vmxor.mm.yaml"
+      },
+      "vnclip.wi": {
+        "$ref": "inst/V/vnclip.wi.yaml"
+      },
+      "vnclip.wv": {
+        "$ref": "inst/V/vnclip.wv.yaml"
+      },
+      "vnclip.wx": {
+        "$ref": "inst/V/vnclip.wx.yaml"
+      },
+      "vnclipu.wi": {
+        "$ref": "inst/V/vnclipu.wi.yaml"
+      },
+      "vnclipu.wv": {
+        "$ref": "inst/V/vnclipu.wv.yaml"
+      },
+      "vnclipu.wx": {
+        "$ref": "inst/V/vnclipu.wx.yaml"
+      },
+      "vnmsac.vv": {
+        "$ref": "inst/V/vnmsac.vv.yaml"
+      },
+      "vnmsac.vx": {
+        "$ref": "inst/V/vnmsac.vx.yaml"
+      },
+      "vnmsub.vv": {
+        "$ref": "inst/V/vnmsub.vv.yaml"
+      },
+      "vnmsub.vx": {
+        "$ref": "inst/V/vnmsub.vx.yaml"
+      },
+      "vnsra.wi": {
+        "$ref": "inst/V/vnsra.wi.yaml"
+      },
+      "vnsra.wv": {
+        "$ref": "inst/V/vnsra.wv.yaml"
+      },
+      "vnsra.wx": {
+        "$ref": "inst/V/vnsra.wx.yaml"
+      },
+      "vnsrl.wi": {
+        "$ref": "inst/V/vnsrl.wi.yaml"
+      },
+      "vnsrl.wv": {
+        "$ref": "inst/V/vnsrl.wv.yaml"
+      },
+      "vnsrl.wx": {
+        "$ref": "inst/V/vnsrl.wx.yaml"
+      },
+      "vor.vi": {
+        "$ref": "inst/V/vor.vi.yaml"
+      },
+      "vor.vv": {
+        "$ref": "inst/V/vor.vv.yaml"
+      },
+      "vor.vx": {
+        "$ref": "inst/V/vor.vx.yaml"
+      },
+      "vredand.vs": {
+        "$ref": "inst/V/vredand.vs.yaml"
+      },
+      "vredmax.vs": {
+        "$ref": "inst/V/vredmax.vs.yaml"
+      },
+      "vredmaxu.vs": {
+        "$ref": "inst/V/vredmaxu.vs.yaml"
+      },
+      "vredmin.vs": {
+        "$ref": "inst/V/vredmin.vs.yaml"
+      },
+      "vredminu.vs": {
+        "$ref": "inst/V/vredminu.vs.yaml"
+      },
+      "vredor.vs": {
+        "$ref": "inst/V/vredor.vs.yaml"
+      },
+      "vredsum.vs": {
+        "$ref": "inst/V/vredsum.vs.yaml"
+      },
+      "vredxor.vs": {
+        "$ref": "inst/V/vredxor.vs.yaml"
+      },
+      "vrem.vv": {
+        "$ref": "inst/V/vrem.vv.yaml"
+      },
+      "vrem.vx": {
+        "$ref": "inst/V/vrem.vx.yaml"
+      },
+      "vremu.vv": {
+        "$ref": "inst/V/vremu.vv.yaml"
+      },
+      "vremu.vx": {
+        "$ref": "inst/V/vremu.vx.yaml"
+      },
+      "vrgather.vi": {
+        "$ref": "inst/V/vrgather.vi.yaml"
+      },
+      "vrgather.vv": {
+        "$ref": "inst/V/vrgather.vv.yaml"
+      },
+      "vrgather.vx": {
+        "$ref": "inst/V/vrgather.vx.yaml"
+      },
+      "vrgatherei16.vv": {
+        "$ref": "inst/V/vrgatherei16.vv.yaml"
+      },
+      "vrsub.vi": {
+        "$ref": "inst/V/vrsub.vi.yaml"
+      },
+      "vrsub.vx": {
+        "$ref": "inst/V/vrsub.vx.yaml"
+      },
+      "vs1r.v": {
+        "$ref": "inst/V/vs1r.v.yaml"
+      },
+      "vs2r.v": {
+        "$ref": "inst/V/vs2r.v.yaml"
+      },
+      "vs4r.v": {
+        "$ref": "inst/V/vs4r.v.yaml"
+      },
+      "vs8r.v": {
+        "$ref": "inst/V/vs8r.v.yaml"
+      },
+      "vsadd.vi": {
+        "$ref": "inst/V/vsadd.vi.yaml"
+      },
+      "vsadd.vv": {
+        "$ref": "inst/V/vsadd.vv.yaml"
+      },
+      "vsadd.vx": {
+        "$ref": "inst/V/vsadd.vx.yaml"
+      },
+      "vsaddu.vi": {
+        "$ref": "inst/V/vsaddu.vi.yaml"
+      },
+      "vsaddu.vv": {
+        "$ref": "inst/V/vsaddu.vv.yaml"
+      },
+      "vsaddu.vx": {
+        "$ref": "inst/V/vsaddu.vx.yaml"
+      },
+      "vsbc.vvm": {
+        "$ref": "inst/V/vsbc.vvm.yaml"
+      },
+      "vsbc.vxm": {
+        "$ref": "inst/V/vsbc.vxm.yaml"
+      },
+      "vse16.v": {
+        "$ref": "inst/V/vse16.v.yaml"
+      },
+      "vse32.v": {
+        "$ref": "inst/V/vse32.v.yaml"
+      },
+      "vse64.v": {
+        "$ref": "inst/V/vse64.v.yaml"
+      },
+      "vse8.v": {
+        "$ref": "inst/V/vse8.v.yaml"
+      },
+      "vsetivli": {
+        "$ref": "inst/V/vsetivli.yaml"
+      },
+      "vsetvl": {
+        "$ref": "inst/V/vsetvl.yaml"
+      },
+      "vsetvli": {
+        "$ref": "inst/V/vsetvli.yaml"
+      },
+      "vsext.vf2": {
+        "$ref": "inst/V/vsext.vf2.yaml"
+      },
+      "vsext.vf4": {
+        "$ref": "inst/V/vsext.vf4.yaml"
+      },
+      "vsext.vf8": {
+        "$ref": "inst/V/vsext.vf8.yaml"
+      },
+      "vslide1down.vx": {
+        "$ref": "inst/V/vslide1down.vx.yaml"
+      },
+      "vslide1up.vx": {
+        "$ref": "inst/V/vslide1up.vx.yaml"
+      },
+      "vslidedown.vi": {
+        "$ref": "inst/V/vslidedown.vi.yaml"
+      },
+      "vslidedown.vx": {
+        "$ref": "inst/V/vslidedown.vx.yaml"
+      },
+      "vslideup.vi": {
+        "$ref": "inst/V/vslideup.vi.yaml"
+      },
+      "vslideup.vx": {
+        "$ref": "inst/V/vslideup.vx.yaml"
+      },
+      "vsll.vi": {
+        "$ref": "inst/V/vsll.vi.yaml"
+      },
+      "vsll.vv": {
+        "$ref": "inst/V/vsll.vv.yaml"
+      },
+      "vsll.vx": {
+        "$ref": "inst/V/vsll.vx.yaml"
+      },
+      "vsm.v": {
+        "$ref": "inst/V/vsm.v.yaml"
+      },
+      "vsmul.vv": {
+        "$ref": "inst/V/vsmul.vv.yaml"
+      },
+      "vsmul.vx": {
+        "$ref": "inst/V/vsmul.vx.yaml"
+      },
+      "vsoxei16.v": {
+        "$ref": "inst/V/vsoxei16.v.yaml"
+      },
+      "vsoxei32.v": {
+        "$ref": "inst/V/vsoxei32.v.yaml"
+      },
+      "vsoxei64.v": {
+        "$ref": "inst/V/vsoxei64.v.yaml"
+      },
+      "vsoxei8.v": {
+        "$ref": "inst/V/vsoxei8.v.yaml"
+      },
+      "vsoxseg2ei16.v": {
+        "$ref": "inst/V/vsoxseg2ei16.v.yaml"
+      },
+      "vsoxseg2ei32.v": {
+        "$ref": "inst/V/vsoxseg2ei32.v.yaml"
+      },
+      "vsoxseg2ei64.v": {
+        "$ref": "inst/V/vsoxseg2ei64.v.yaml"
+      },
+      "vsoxseg2ei8.v": {
+        "$ref": "inst/V/vsoxseg2ei8.v.yaml"
+      },
+      "vsoxseg3ei16.v": {
+        "$ref": "inst/V/vsoxseg3ei16.v.yaml"
+      },
+      "vsoxseg3ei32.v": {
+        "$ref": "inst/V/vsoxseg3ei32.v.yaml"
+      },
+      "vsoxseg3ei64.v": {
+        "$ref": "inst/V/vsoxseg3ei64.v.yaml"
+      },
+      "vsoxseg3ei8.v": {
+        "$ref": "inst/V/vsoxseg3ei8.v.yaml"
+      },
+      "vsoxseg4ei16.v": {
+        "$ref": "inst/V/vsoxseg4ei16.v.yaml"
+      },
+      "vsoxseg4ei32.v": {
+        "$ref": "inst/V/vsoxseg4ei32.v.yaml"
+      },
+      "vsoxseg4ei64.v": {
+        "$ref": "inst/V/vsoxseg4ei64.v.yaml"
+      },
+      "vsoxseg4ei8.v": {
+        "$ref": "inst/V/vsoxseg4ei8.v.yaml"
+      },
+      "vsoxseg5ei16.v": {
+        "$ref": "inst/V/vsoxseg5ei16.v.yaml"
+      },
+      "vsoxseg5ei32.v": {
+        "$ref": "inst/V/vsoxseg5ei32.v.yaml"
+      },
+      "vsoxseg5ei64.v": {
+        "$ref": "inst/V/vsoxseg5ei64.v.yaml"
+      },
+      "vsoxseg5ei8.v": {
+        "$ref": "inst/V/vsoxseg5ei8.v.yaml"
+      },
+      "vsoxseg6ei16.v": {
+        "$ref": "inst/V/vsoxseg6ei16.v.yaml"
+      },
+      "vsoxseg6ei32.v": {
+        "$ref": "inst/V/vsoxseg6ei32.v.yaml"
+      },
+      "vsoxseg6ei64.v": {
+        "$ref": "inst/V/vsoxseg6ei64.v.yaml"
+      },
+      "vsoxseg6ei8.v": {
+        "$ref": "inst/V/vsoxseg6ei8.v.yaml"
+      },
+      "vsoxseg7ei16.v": {
+        "$ref": "inst/V/vsoxseg7ei16.v.yaml"
+      },
+      "vsoxseg7ei32.v": {
+        "$ref": "inst/V/vsoxseg7ei32.v.yaml"
+      },
+      "vsoxseg7ei64.v": {
+        "$ref": "inst/V/vsoxseg7ei64.v.yaml"
+      },
+      "vsoxseg7ei8.v": {
+        "$ref": "inst/V/vsoxseg7ei8.v.yaml"
+      },
+      "vsoxseg8ei16.v": {
+        "$ref": "inst/V/vsoxseg8ei16.v.yaml"
+      },
+      "vsoxseg8ei32.v": {
+        "$ref": "inst/V/vsoxseg8ei32.v.yaml"
+      },
+      "vsoxseg8ei64.v": {
+        "$ref": "inst/V/vsoxseg8ei64.v.yaml"
+      },
+      "vsoxseg8ei8.v": {
+        "$ref": "inst/V/vsoxseg8ei8.v.yaml"
+      },
+      "vsra.vi": {
+        "$ref": "inst/V/vsra.vi.yaml"
+      },
+      "vsra.vv": {
+        "$ref": "inst/V/vsra.vv.yaml"
+      },
+      "vsra.vx": {
+        "$ref": "inst/V/vsra.vx.yaml"
+      },
+      "vsrl.vi": {
+        "$ref": "inst/V/vsrl.vi.yaml"
+      },
+      "vsrl.vv": {
+        "$ref": "inst/V/vsrl.vv.yaml"
+      },
+      "vsrl.vx": {
+        "$ref": "inst/V/vsrl.vx.yaml"
+      },
+      "vsse16.v": {
+        "$ref": "inst/V/vsse16.v.yaml"
+      },
+      "vsse32.v": {
+        "$ref": "inst/V/vsse32.v.yaml"
+      },
+      "vsse64.v": {
+        "$ref": "inst/V/vsse64.v.yaml"
+      },
+      "vsse8.v": {
+        "$ref": "inst/V/vsse8.v.yaml"
+      },
+      "vsseg2e16.v": {
+        "$ref": "inst/V/vsseg2e16.v.yaml"
+      },
+      "vsseg2e32.v": {
+        "$ref": "inst/V/vsseg2e32.v.yaml"
+      },
+      "vsseg2e64.v": {
+        "$ref": "inst/V/vsseg2e64.v.yaml"
+      },
+      "vsseg2e8.v": {
+        "$ref": "inst/V/vsseg2e8.v.yaml"
+      },
+      "vsseg3e16.v": {
+        "$ref": "inst/V/vsseg3e16.v.yaml"
+      },
+      "vsseg3e32.v": {
+        "$ref": "inst/V/vsseg3e32.v.yaml"
+      },
+      "vsseg3e64.v": {
+        "$ref": "inst/V/vsseg3e64.v.yaml"
+      },
+      "vsseg3e8.v": {
+        "$ref": "inst/V/vsseg3e8.v.yaml"
+      },
+      "vsseg4e16.v": {
+        "$ref": "inst/V/vsseg4e16.v.yaml"
+      },
+      "vsseg4e32.v": {
+        "$ref": "inst/V/vsseg4e32.v.yaml"
+      },
+      "vsseg4e64.v": {
+        "$ref": "inst/V/vsseg4e64.v.yaml"
+      },
+      "vsseg4e8.v": {
+        "$ref": "inst/V/vsseg4e8.v.yaml"
+      },
+      "vsseg5e16.v": {
+        "$ref": "inst/V/vsseg5e16.v.yaml"
+      },
+      "vsseg5e32.v": {
+        "$ref": "inst/V/vsseg5e32.v.yaml"
+      },
+      "vsseg5e64.v": {
+        "$ref": "inst/V/vsseg5e64.v.yaml"
+      },
+      "vsseg5e8.v": {
+        "$ref": "inst/V/vsseg5e8.v.yaml"
+      },
+      "vsseg6e16.v": {
+        "$ref": "inst/V/vsseg6e16.v.yaml"
+      },
+      "vsseg6e32.v": {
+        "$ref": "inst/V/vsseg6e32.v.yaml"
+      },
+      "vsseg6e64.v": {
+        "$ref": "inst/V/vsseg6e64.v.yaml"
+      },
+      "vsseg6e8.v": {
+        "$ref": "inst/V/vsseg6e8.v.yaml"
+      },
+      "vsseg7e16.v": {
+        "$ref": "inst/V/vsseg7e16.v.yaml"
+      },
+      "vsseg7e32.v": {
+        "$ref": "inst/V/vsseg7e32.v.yaml"
+      },
+      "vsseg7e64.v": {
+        "$ref": "inst/V/vsseg7e64.v.yaml"
+      },
+      "vsseg7e8.v": {
+        "$ref": "inst/V/vsseg7e8.v.yaml"
+      },
+      "vsseg8e16.v": {
+        "$ref": "inst/V/vsseg8e16.v.yaml"
+      },
+      "vsseg8e32.v": {
+        "$ref": "inst/V/vsseg8e32.v.yaml"
+      },
+      "vsseg8e64.v": {
+        "$ref": "inst/V/vsseg8e64.v.yaml"
+      },
+      "vsseg8e8.v": {
+        "$ref": "inst/V/vsseg8e8.v.yaml"
+      },
+      "vssra.vi": {
+        "$ref": "inst/V/vssra.vi.yaml"
+      },
+      "vssra.vv": {
+        "$ref": "inst/V/vssra.vv.yaml"
+      },
+      "vssra.vx": {
+        "$ref": "inst/V/vssra.vx.yaml"
+      },
+      "vssrl.vi": {
+        "$ref": "inst/V/vssrl.vi.yaml"
+      },
+      "vssrl.vv": {
+        "$ref": "inst/V/vssrl.vv.yaml"
+      },
+      "vssrl.vx": {
+        "$ref": "inst/V/vssrl.vx.yaml"
+      },
+      "vssseg2e16.v": {
+        "$ref": "inst/V/vssseg2e16.v.yaml"
+      },
+      "vssseg2e32.v": {
+        "$ref": "inst/V/vssseg2e32.v.yaml"
+      },
+      "vssseg2e64.v": {
+        "$ref": "inst/V/vssseg2e64.v.yaml"
+      },
+      "vssseg2e8.v": {
+        "$ref": "inst/V/vssseg2e8.v.yaml"
+      },
+      "vssseg3e16.v": {
+        "$ref": "inst/V/vssseg3e16.v.yaml"
+      },
+      "vssseg3e32.v": {
+        "$ref": "inst/V/vssseg3e32.v.yaml"
+      },
+      "vssseg3e64.v": {
+        "$ref": "inst/V/vssseg3e64.v.yaml"
+      },
+      "vssseg3e8.v": {
+        "$ref": "inst/V/vssseg3e8.v.yaml"
+      },
+      "vssseg4e16.v": {
+        "$ref": "inst/V/vssseg4e16.v.yaml"
+      },
+      "vssseg4e32.v": {
+        "$ref": "inst/V/vssseg4e32.v.yaml"
+      },
+      "vssseg4e64.v": {
+        "$ref": "inst/V/vssseg4e64.v.yaml"
+      },
+      "vssseg4e8.v": {
+        "$ref": "inst/V/vssseg4e8.v.yaml"
+      },
+      "vssseg5e16.v": {
+        "$ref": "inst/V/vssseg5e16.v.yaml"
+      },
+      "vssseg5e32.v": {
+        "$ref": "inst/V/vssseg5e32.v.yaml"
+      },
+      "vssseg5e64.v": {
+        "$ref": "inst/V/vssseg5e64.v.yaml"
+      },
+      "vssseg5e8.v": {
+        "$ref": "inst/V/vssseg5e8.v.yaml"
+      },
+      "vssseg6e16.v": {
+        "$ref": "inst/V/vssseg6e16.v.yaml"
+      },
+      "vssseg6e32.v": {
+        "$ref": "inst/V/vssseg6e32.v.yaml"
+      },
+      "vssseg6e64.v": {
+        "$ref": "inst/V/vssseg6e64.v.yaml"
+      },
+      "vssseg6e8.v": {
+        "$ref": "inst/V/vssseg6e8.v.yaml"
+      },
+      "vssseg7e16.v": {
+        "$ref": "inst/V/vssseg7e16.v.yaml"
+      },
+      "vssseg7e32.v": {
+        "$ref": "inst/V/vssseg7e32.v.yaml"
+      },
+      "vssseg7e64.v": {
+        "$ref": "inst/V/vssseg7e64.v.yaml"
+      },
+      "vssseg7e8.v": {
+        "$ref": "inst/V/vssseg7e8.v.yaml"
+      },
+      "vssseg8e16.v": {
+        "$ref": "inst/V/vssseg8e16.v.yaml"
+      },
+      "vssseg8e32.v": {
+        "$ref": "inst/V/vssseg8e32.v.yaml"
+      },
+      "vssseg8e64.v": {
+        "$ref": "inst/V/vssseg8e64.v.yaml"
+      },
+      "vssseg8e8.v": {
+        "$ref": "inst/V/vssseg8e8.v.yaml"
+      },
+      "vssub.vv": {
+        "$ref": "inst/V/vssub.vv.yaml"
+      },
+      "vssub.vx": {
+        "$ref": "inst/V/vssub.vx.yaml"
+      },
+      "vssubu.vv": {
+        "$ref": "inst/V/vssubu.vv.yaml"
+      },
+      "vssubu.vx": {
+        "$ref": "inst/V/vssubu.vx.yaml"
+      },
+      "vsub.vv": {
+        "$ref": "inst/V/vsub.vv.yaml"
+      },
+      "vsub.vx": {
+        "$ref": "inst/V/vsub.vx.yaml"
+      },
+      "vsuxei16.v": {
+        "$ref": "inst/V/vsuxei16.v.yaml"
+      },
+      "vsuxei32.v": {
+        "$ref": "inst/V/vsuxei32.v.yaml"
+      },
+      "vsuxei64.v": {
+        "$ref": "inst/V/vsuxei64.v.yaml"
+      },
+      "vsuxei8.v": {
+        "$ref": "inst/V/vsuxei8.v.yaml"
+      },
+      "vsuxseg2ei16.v": {
+        "$ref": "inst/V/vsuxseg2ei16.v.yaml"
+      },
+      "vsuxseg2ei32.v": {
+        "$ref": "inst/V/vsuxseg2ei32.v.yaml"
+      },
+      "vsuxseg2ei64.v": {
+        "$ref": "inst/V/vsuxseg2ei64.v.yaml"
+      },
+      "vsuxseg2ei8.v": {
+        "$ref": "inst/V/vsuxseg2ei8.v.yaml"
+      },
+      "vsuxseg3ei16.v": {
+        "$ref": "inst/V/vsuxseg3ei16.v.yaml"
+      },
+      "vsuxseg3ei32.v": {
+        "$ref": "inst/V/vsuxseg3ei32.v.yaml"
+      },
+      "vsuxseg3ei64.v": {
+        "$ref": "inst/V/vsuxseg3ei64.v.yaml"
+      },
+      "vsuxseg3ei8.v": {
+        "$ref": "inst/V/vsuxseg3ei8.v.yaml"
+      },
+      "vsuxseg4ei16.v": {
+        "$ref": "inst/V/vsuxseg4ei16.v.yaml"
+      },
+      "vsuxseg4ei32.v": {
+        "$ref": "inst/V/vsuxseg4ei32.v.yaml"
+      },
+      "vsuxseg4ei64.v": {
+        "$ref": "inst/V/vsuxseg4ei64.v.yaml"
+      },
+      "vsuxseg4ei8.v": {
+        "$ref": "inst/V/vsuxseg4ei8.v.yaml"
+      },
+      "vsuxseg5ei16.v": {
+        "$ref": "inst/V/vsuxseg5ei16.v.yaml"
+      },
+      "vsuxseg5ei32.v": {
+        "$ref": "inst/V/vsuxseg5ei32.v.yaml"
+      },
+      "vsuxseg5ei64.v": {
+        "$ref": "inst/V/vsuxseg5ei64.v.yaml"
+      },
+      "vsuxseg5ei8.v": {
+        "$ref": "inst/V/vsuxseg5ei8.v.yaml"
+      },
+      "vsuxseg6ei16.v": {
+        "$ref": "inst/V/vsuxseg6ei16.v.yaml"
+      },
+      "vsuxseg6ei32.v": {
+        "$ref": "inst/V/vsuxseg6ei32.v.yaml"
+      },
+      "vsuxseg6ei64.v": {
+        "$ref": "inst/V/vsuxseg6ei64.v.yaml"
+      },
+      "vsuxseg6ei8.v": {
+        "$ref": "inst/V/vsuxseg6ei8.v.yaml"
+      },
+      "vsuxseg7ei16.v": {
+        "$ref": "inst/V/vsuxseg7ei16.v.yaml"
+      },
+      "vsuxseg7ei32.v": {
+        "$ref": "inst/V/vsuxseg7ei32.v.yaml"
+      },
+      "vsuxseg7ei64.v": {
+        "$ref": "inst/V/vsuxseg7ei64.v.yaml"
+      },
+      "vsuxseg7ei8.v": {
+        "$ref": "inst/V/vsuxseg7ei8.v.yaml"
+      },
+      "vsuxseg8ei16.v": {
+        "$ref": "inst/V/vsuxseg8ei16.v.yaml"
+      },
+      "vsuxseg8ei32.v": {
+        "$ref": "inst/V/vsuxseg8ei32.v.yaml"
+      },
+      "vsuxseg8ei64.v": {
+        "$ref": "inst/V/vsuxseg8ei64.v.yaml"
+      },
+      "vsuxseg8ei8.v": {
+        "$ref": "inst/V/vsuxseg8ei8.v.yaml"
+      },
+      "vwadd.vv": {
+        "$ref": "inst/V/vwadd.vv.yaml"
+      },
+      "vwadd.vx": {
+        "$ref": "inst/V/vwadd.vx.yaml"
+      },
+      "vwadd.wv": {
+        "$ref": "inst/V/vwadd.wv.yaml"
+      },
+      "vwadd.wx": {
+        "$ref": "inst/V/vwadd.wx.yaml"
+      },
+      "vwaddu.vv": {
+        "$ref": "inst/V/vwaddu.vv.yaml"
+      },
+      "vwaddu.vx": {
+        "$ref": "inst/V/vwaddu.vx.yaml"
+      },
+      "vwaddu.wv": {
+        "$ref": "inst/V/vwaddu.wv.yaml"
+      },
+      "vwaddu.wx": {
+        "$ref": "inst/V/vwaddu.wx.yaml"
+      },
+      "vwmacc.vv": {
+        "$ref": "inst/V/vwmacc.vv.yaml"
+      },
+      "vwmacc.vx": {
+        "$ref": "inst/V/vwmacc.vx.yaml"
+      },
+      "vwmaccsu.vv": {
+        "$ref": "inst/V/vwmaccsu.vv.yaml"
+      },
+      "vwmaccsu.vx": {
+        "$ref": "inst/V/vwmaccsu.vx.yaml"
+      },
+      "vwmaccu.vv": {
+        "$ref": "inst/V/vwmaccu.vv.yaml"
+      },
+      "vwmaccu.vx": {
+        "$ref": "inst/V/vwmaccu.vx.yaml"
+      },
+      "vwmaccus.vx": {
+        "$ref": "inst/V/vwmaccus.vx.yaml"
+      },
+      "vwmul.vv": {
+        "$ref": "inst/V/vwmul.vv.yaml"
+      },
+      "vwmul.vx": {
+        "$ref": "inst/V/vwmul.vx.yaml"
+      },
+      "vwmulsu.vv": {
+        "$ref": "inst/V/vwmulsu.vv.yaml"
+      },
+      "vwmulsu.vx": {
+        "$ref": "inst/V/vwmulsu.vx.yaml"
+      },
+      "vwmulu.vv": {
+        "$ref": "inst/V/vwmulu.vv.yaml"
+      },
+      "vwmulu.vx": {
+        "$ref": "inst/V/vwmulu.vx.yaml"
+      },
+      "vwredsum.vs": {
+        "$ref": "inst/V/vwredsum.vs.yaml"
+      },
+      "vwredsumu.vs": {
+        "$ref": "inst/V/vwredsumu.vs.yaml"
+      },
+      "vwsub.vv": {
+        "$ref": "inst/V/vwsub.vv.yaml"
+      },
+      "vwsub.vx": {
+        "$ref": "inst/V/vwsub.vx.yaml"
+      },
+      "vwsub.wv": {
+        "$ref": "inst/V/vwsub.wv.yaml"
+      },
+      "vwsub.wx": {
+        "$ref": "inst/V/vwsub.wx.yaml"
+      },
+      "vwsubu.vv": {
+        "$ref": "inst/V/vwsubu.vv.yaml"
+      },
+      "vwsubu.vx": {
+        "$ref": "inst/V/vwsubu.vx.yaml"
+      },
+      "vwsubu.wv": {
+        "$ref": "inst/V/vwsubu.wv.yaml"
+      },
+      "vwsubu.wx": {
+        "$ref": "inst/V/vwsubu.wx.yaml"
+      },
+      "vxor.vi": {
+        "$ref": "inst/V/vxor.vi.yaml"
+      },
+      "vxor.vv": {
+        "$ref": "inst/V/vxor.vv.yaml"
+      },
+      "vxor.vx": {
+        "$ref": "inst/V/vxor.vx.yaml"
+      },
+      "vzext.vf2": {
+        "$ref": "inst/V/vzext.vf2.yaml"
+      },
+      "vzext.vf4": {
+        "$ref": "inst/V/vzext.vf4.yaml"
+      },
+      "vzext.vf8": {
+        "$ref": "inst/V/vzext.vf8.yaml"
+      }
+    },
+    "Zabha": {
+      "amoadd.b": {
+        "$ref": "inst/Zabha/amoadd.b.yaml"
+      },
+      "amoadd.h": {
+        "$ref": "inst/Zabha/amoadd.h.yaml"
+      },
+      "amoand.b": {
+        "$ref": "inst/Zabha/amoand.b.yaml"
+      },
+      "amoand.h": {
+        "$ref": "inst/Zabha/amoand.h.yaml"
+      },
+      "amocas.b": {
+        "$ref": "inst/Zabha/amocas.b.yaml"
+      },
+      "amocas.h": {
+        "$ref": "inst/Zabha/amocas.h.yaml"
+      },
+      "amomax.b": {
+        "$ref": "inst/Zabha/amomax.b.yaml"
+      },
+      "amomax.h": {
+        "$ref": "inst/Zabha/amomax.h.yaml"
+      },
+      "amomaxu.b": {
+        "$ref": "inst/Zabha/amomaxu.b.yaml"
+      },
+      "amomaxu.h": {
+        "$ref": "inst/Zabha/amomaxu.h.yaml"
+      },
+      "amomin.b": {
+        "$ref": "inst/Zabha/amomin.b.yaml"
+      },
+      "amomin.h": {
+        "$ref": "inst/Zabha/amomin.h.yaml"
+      },
+      "amominu.b": {
+        "$ref": "inst/Zabha/amominu.b.yaml"
+      },
+      "amominu.h": {
+        "$ref": "inst/Zabha/amominu.h.yaml"
+      },
+      "amoor.b": {
+        "$ref": "inst/Zabha/amoor.b.yaml"
+      },
+      "amoor.h": {
+        "$ref": "inst/Zabha/amoor.h.yaml"
+      },
+      "amoswap.b": {
+        "$ref": "inst/Zabha/amoswap.b.yaml"
+      },
+      "amoswap.h": {
+        "$ref": "inst/Zabha/amoswap.h.yaml"
+      },
+      "amoxor.b": {
+        "$ref": "inst/Zabha/amoxor.b.yaml"
+      },
+      "amoxor.h": {
+        "$ref": "inst/Zabha/amoxor.h.yaml"
+      }
+    },
+    "Zacas": {
+      "amocas.d": {
+        "$ref": "inst/Zacas/amocas.d.yaml"
+      },
+      "amocas.q": {
+        "$ref": "inst/Zacas/amocas.q.yaml"
+      },
+      "amocas.w": {
+        "$ref": "inst/Zacas/amocas.w.yaml"
+      }
+    },
+    "Zalasr": {
+      "lb.aq": {
+        "$ref": "inst/Zalasr/lb.aq.yaml"
+      },
+      "ld.aq": {
+        "$ref": "inst/Zalasr/ld.aq.yaml"
+      },
+      "lh.aq": {
+        "$ref": "inst/Zalasr/lh.aq.yaml"
+      },
+      "lw.aq": {
+        "$ref": "inst/Zalasr/lw.aq.yaml"
+      },
+      "sb.rl": {
+        "$ref": "inst/Zalasr/sb.rl.yaml"
+      },
+      "sd.rl": {
+        "$ref": "inst/Zalasr/sd.rl.yaml"
+      },
+      "sh.rl": {
+        "$ref": "inst/Zalasr/sh.rl.yaml"
+      },
+      "sw.rl": {
+        "$ref": "inst/Zalasr/sw.rl.yaml"
+      }
+    },
+    "Zawrs": {
+      "wrs.nto": {
+        "$ref": "inst/Zawrs/wrs.nto.yaml"
+      },
+      "wrs.sto": {
+        "$ref": "inst/Zawrs/wrs.sto.yaml"
+      }
+    },
+    "Zbkb": {
+      "brev8": {
+        "$ref": "inst/Zbkb/brev8.yaml"
+      },
+      "unzip": {
+        "$ref": "inst/Zbkb/unzip.yaml"
+      },
+      "zip": {
+        "$ref": "inst/Zbkb/zip.yaml"
+      }
+    },
+    "Zbkx": {
+      "xperm4": {
+        "$ref": "inst/Zbkx/xperm4.yaml"
+      },
+      "xperm8": {
+        "$ref": "inst/Zbkx/xperm8.yaml"
+      }
+    },
+    "Zcb": {
+      "c.lbu": {
+        "$ref": "inst/Zcb/c.lbu.yaml"
+      },
+      "c.lh": {
+        "$ref": "inst/Zcb/c.lh.yaml"
+      },
+      "c.lhu": {
+        "$ref": "inst/Zcb/c.lhu.yaml"
+      },
+      "c.mul": {
+        "$ref": "inst/Zcb/c.mul.yaml"
+      },
+      "c.not": {
+        "$ref": "inst/Zcb/c.not.yaml"
+      },
+      "c.sb": {
+        "$ref": "inst/Zcb/c.sb.yaml"
+      },
+      "c.sext.b": {
+        "$ref": "inst/Zcb/c.sext.b.yaml"
+      },
+      "c.sext.h": {
+        "$ref": "inst/Zcb/c.sext.h.yaml"
+      },
+      "c.sh": {
+        "$ref": "inst/Zcb/c.sh.yaml"
+      },
+      "c.zext.b": {
+        "$ref": "inst/Zcb/c.zext.b.yaml"
+      },
+      "c.zext.h": {
+        "$ref": "inst/Zcb/c.zext.h.yaml"
+      },
+      "c.zext.w": {
+        "$ref": "inst/Zcb/c.zext.w.yaml"
+      }
+    },
+    "Zcmp": {
+      "cm.mva01s": {
+        "$ref": "inst/Zcmp/cm.mva01s.yaml"
+      },
+      "cm.mvsa01": {
+        "$ref": "inst/Zcmp/cm.mvsa01.yaml"
+      },
+      "cm.pop": {
+        "$ref": "inst/Zcmp/cm.pop.yaml"
+      },
+      "cm.popret": {
+        "$ref": "inst/Zcmp/cm.popret.yaml"
+      },
+      "cm.popretz": {
+        "$ref": "inst/Zcmp/cm.popretz.yaml"
+      },
+      "cm.push": {
+        "$ref": "inst/Zcmp/cm.push.yaml"
+      }
+    },
+    "Zfbfmin": {
+      "fcvt.bf16.s": {
+        "$ref": "inst/Zfbfmin/fcvt.bf16.s.yaml"
+      },
+      "fcvt.s.bf16": {
+        "$ref": "inst/Zfbfmin/fcvt.s.bf16.yaml"
+      }
+    },
+    "Zfh": {
+      "fadd.h": {
+        "$ref": "inst/Zfh/fadd.h.yaml"
+      },
+      "fclass.h": {
+        "$ref": "inst/Zfh/fclass.h.yaml"
+      },
+      "fcvt.d.h": {
+        "$ref": "inst/Zfh/fcvt.d.h.yaml"
+      },
+      "fcvt.h.d": {
+        "$ref": "inst/Zfh/fcvt.h.d.yaml"
+      },
+      "fcvt.h.l": {
+        "$ref": "inst/Zfh/fcvt.h.l.yaml"
+      },
+      "fcvt.h.lu": {
+        "$ref": "inst/Zfh/fcvt.h.lu.yaml"
+      },
+      "fcvt.h.s": {
+        "$ref": "inst/Zfh/fcvt.h.s.yaml"
+      },
+      "fcvt.h.w": {
+        "$ref": "inst/Zfh/fcvt.h.w.yaml"
+      },
+      "fcvt.h.wu": {
+        "$ref": "inst/Zfh/fcvt.h.wu.yaml"
+      },
+      "fcvt.l.h": {
+        "$ref": "inst/Zfh/fcvt.l.h.yaml"
+      },
+      "fcvt.lu.h": {
+        "$ref": "inst/Zfh/fcvt.lu.h.yaml"
+      },
+      "fcvt.s.h": {
+        "$ref": "inst/Zfh/fcvt.s.h.yaml"
+      },
+      "fcvt.w.h": {
+        "$ref": "inst/Zfh/fcvt.w.h.yaml"
+      },
+      "fcvt.wu.h": {
+        "$ref": "inst/Zfh/fcvt.wu.h.yaml"
+      },
+      "fdiv.h": {
+        "$ref": "inst/Zfh/fdiv.h.yaml"
+      },
+      "feq.h": {
+        "$ref": "inst/Zfh/feq.h.yaml"
+      },
+      "fle.h": {
+        "$ref": "inst/Zfh/fle.h.yaml"
+      },
+      "fleq.h": {
+        "$ref": "inst/Zfh/fleq.h.yaml"
+      },
+      "flh": {
+        "$ref": "inst/Zfh/flh.yaml"
+      },
+      "fli.h": {
+        "$ref": "inst/Zfh/fli.h.yaml"
+      },
+      "flt.h": {
+        "$ref": "inst/Zfh/flt.h.yaml"
+      },
+      "fltq.h": {
+        "$ref": "inst/Zfh/fltq.h.yaml"
+      },
+      "fmadd.h": {
+        "$ref": "inst/Zfh/fmadd.h.yaml"
+      },
+      "fmax.h": {
+        "$ref": "inst/Zfh/fmax.h.yaml"
+      },
+      "fmaxm.h": {
+        "$ref": "inst/Zfh/fmaxm.h.yaml"
+      },
+      "fmin.h": {
+        "$ref": "inst/Zfh/fmin.h.yaml"
+      },
+      "fminm.h": {
+        "$ref": "inst/Zfh/fminm.h.yaml"
+      },
+      "fmsub.h": {
+        "$ref": "inst/Zfh/fmsub.h.yaml"
+      },
+      "fmul.h": {
+        "$ref": "inst/Zfh/fmul.h.yaml"
+      },
+      "fmv.h.x": {
+        "$ref": "inst/Zfh/fmv.h.x.yaml"
+      },
+      "fmv.x.h": {
+        "$ref": "inst/Zfh/fmv.x.h.yaml"
+      },
+      "fnmadd.h": {
+        "$ref": "inst/Zfh/fnmadd.h.yaml"
+      },
+      "fnmsub.h": {
+        "$ref": "inst/Zfh/fnmsub.h.yaml"
+      },
+      "fround.h": {
+        "$ref": "inst/Zfh/fround.h.yaml"
+      },
+      "froundnx.h": {
+        "$ref": "inst/Zfh/froundnx.h.yaml"
+      },
+      "fsgnj.h": {
+        "$ref": "inst/Zfh/fsgnj.h.yaml"
+      },
+      "fsgnjn.h": {
+        "$ref": "inst/Zfh/fsgnjn.h.yaml"
+      },
+      "fsgnjx.h": {
+        "$ref": "inst/Zfh/fsgnjx.h.yaml"
+      },
+      "fsh": {
+        "$ref": "inst/Zfh/fsh.yaml"
+      },
+      "fsqrt.h": {
+        "$ref": "inst/Zfh/fsqrt.h.yaml"
+      },
+      "fsub.h": {
+        "$ref": "inst/Zfh/fsub.h.yaml"
+      }
+    },
+    "Zicbom": {
+      "cbo.clean": {
+        "$ref": "inst/Zicbom/cbo.clean.yaml"
+      },
+      "cbo.flush": {
+        "$ref": "inst/Zicbom/cbo.flush.yaml"
+      },
+      "cbo.inval": {
+        "$ref": "inst/Zicbom/cbo.inval.yaml"
+      }
+    },
+    "Zicboz": {
+      "cbo.zero": {
+        "$ref": "inst/Zicboz/cbo.zero.yaml"
+      }
+    },
+    "Zicfilp": {
+      "lpad": {
+        "$ref": "inst/Zicfilp/lpad.yaml"
+      }
+    },
+    "Zicfiss": {
+      "ssamoswap.d": {
+        "$ref": "inst/Zicfiss/ssamoswap.d.yaml"
+      },
+      "ssamoswap.w": {
+        "$ref": "inst/Zicfiss/ssamoswap.w.yaml"
+      },
+      "sspopchk.x1": {
+        "$ref": "inst/Zicfiss/sspopchk.x1.yaml"
+      },
+      "sspopchk.x5": {
+        "$ref": "inst/Zicfiss/sspopchk.x5.yaml"
+      },
+      "sspush.x1": {
+        "$ref": "inst/Zicfiss/sspush.x1.yaml"
+      },
+      "sspush.x5": {
+        "$ref": "inst/Zicfiss/sspush.x5.yaml"
+      },
+      "ssrdp": {
+        "$ref": "inst/Zicfiss/ssrdp.yaml"
+      }
+    },
+    "Zicond": {
+      "czero.eqz": {
+        "$ref": "inst/Zicond/czero.eqz.yaml"
+      },
+      "czero.nez": {
+        "$ref": "inst/Zicond/czero.nez.yaml"
+      }
+    },
+    "Zicsr": {
+      "csrrc": {
+        "$ref": "inst/Zicsr/csrrc.yaml"
+      },
+      "csrrci": {
+        "$ref": "inst/Zicsr/csrrci.yaml"
+      },
+      "csrrs": {
+        "$ref": "inst/Zicsr/csrrs.yaml"
+      },
+      "csrrsi": {
+        "$ref": "inst/Zicsr/csrrsi.yaml"
+      },
+      "csrrw": {
+        "$ref": "inst/Zicsr/csrrw.yaml"
+      },
+      "csrrwi": {
+        "$ref": "inst/Zicsr/csrrwi.yaml"
+      }
+    },
+    "Zifencei": {
+      "fence.i": {
+        "$ref": "inst/Zifencei/fence.i.yaml"
+      }
+    },
+    "Zimop": {
+      "mop.r.n": {
+        "$ref": "inst/Zimop/mop.r.n.yaml"
+      },
+      "mop.rr.n": {
+        "$ref": "inst/Zimop/mop.rr.n.yaml"
+      }
+    },
+    "Zk": {
+      "aes32dsi": {
+        "$ref": "inst/Zk/aes32dsi.yaml"
+      },
+      "aes32dsmi": {
+        "$ref": "inst/Zk/aes32dsmi.yaml"
+      },
+      "aes32esi": {
+        "$ref": "inst/Zk/aes32esi.yaml"
+      },
+      "aes32esmi": {
+        "$ref": "inst/Zk/aes32esmi.yaml"
+      },
+      "aes64ds": {
+        "$ref": "inst/Zk/aes64ds.yaml"
+      },
+      "aes64dsm": {
+        "$ref": "inst/Zk/aes64dsm.yaml"
+      },
+      "aes64es": {
+        "$ref": "inst/Zk/aes64es.yaml"
+      },
+      "aes64esm": {
+        "$ref": "inst/Zk/aes64esm.yaml"
+      },
+      "aes64im": {
+        "$ref": "inst/Zk/aes64im.yaml"
+      },
+      "aes64ks1i": {
+        "$ref": "inst/Zk/aes64ks1i.yaml"
+      },
+      "aes64ks2": {
+        "$ref": "inst/Zk/aes64ks2.yaml"
+      },
+      "pack": {
+        "$ref": "inst/Zk/pack.yaml"
+      },
+      "packh": {
+        "$ref": "inst/Zk/packh.yaml"
+      },
+      "packw": {
+        "$ref": "inst/Zk/packw.yaml"
+      },
+      "sha256sig0": {
+        "$ref": "inst/Zk/sha256sig0.yaml"
+      },
+      "sha256sig1": {
+        "$ref": "inst/Zk/sha256sig1.yaml"
+      },
+      "sha256sum0": {
+        "$ref": "inst/Zk/sha256sum0.yaml"
+      },
+      "sha256sum1": {
+        "$ref": "inst/Zk/sha256sum1.yaml"
+      },
+      "sha512sig0": {
+        "$ref": "inst/Zk/sha512sig0.yaml"
+      },
+      "sha512sig0h": {
+        "$ref": "inst/Zk/sha512sig0h.yaml"
+      },
+      "sha512sig0l": {
+        "$ref": "inst/Zk/sha512sig0l.yaml"
+      },
+      "sha512sig1": {
+        "$ref": "inst/Zk/sha512sig1.yaml"
+      },
+      "sha512sig1h": {
+        "$ref": "inst/Zk/sha512sig1h.yaml"
+      },
+      "sha512sig1l": {
+        "$ref": "inst/Zk/sha512sig1l.yaml"
+      },
+      "sha512sum0": {
+        "$ref": "inst/Zk/sha512sum0.yaml"
+      },
+      "sha512sum0r": {
+        "$ref": "inst/Zk/sha512sum0r.yaml"
+      },
+      "sha512sum1": {
+        "$ref": "inst/Zk/sha512sum1.yaml"
+      },
+      "sha512sum1r": {
+        "$ref": "inst/Zk/sha512sum1r.yaml"
+      }
+    },
+    "Zks": {
+      "sm3p0": {
+        "$ref": "inst/Zks/sm3p0.yaml"
+      },
+      "sm3p1": {
+        "$ref": "inst/Zks/sm3p1.yaml"
+      },
+      "sm4ed": {
+        "$ref": "inst/Zks/sm4ed.yaml"
+      },
+      "sm4ks": {
+        "$ref": "inst/Zks/sm4ks.yaml"
+      }
+    },
+    "Zvbb": {
+      "vandn.vv": {
+        "$ref": "inst/Zvbb/vandn.vv.yaml"
+      },
+      "vandn.vx": {
+        "$ref": "inst/Zvbb/vandn.vx.yaml"
+      },
+      "vbrev.v": {
+        "$ref": "inst/Zvbb/vbrev.v.yaml"
+      },
+      "vbrev8.v": {
+        "$ref": "inst/Zvbb/vbrev8.v.yaml"
+      },
+      "vclz.v": {
+        "$ref": "inst/Zvbb/vclz.v.yaml"
+      },
+      "vcpop.v": {
+        "$ref": "inst/Zvbb/vcpop.v.yaml"
+      },
+      "vctz.v": {
+        "$ref": "inst/Zvbb/vctz.v.yaml"
+      },
+      "vrev8.v": {
+        "$ref": "inst/Zvbb/vrev8.v.yaml"
+      },
+      "vrol.vv": {
+        "$ref": "inst/Zvbb/vrol.vv.yaml"
+      },
+      "vrol.vx": {
+        "$ref": "inst/Zvbb/vrol.vx.yaml"
+      },
+      "vror.vi": {
+        "$ref": "inst/Zvbb/vror.vi.yaml"
+      },
+      "vror.vv": {
+        "$ref": "inst/Zvbb/vror.vv.yaml"
+      },
+      "vror.vx": {
+        "$ref": "inst/Zvbb/vror.vx.yaml"
+      },
+      "vwsll.vi": {
+        "$ref": "inst/Zvbb/vwsll.vi.yaml"
+      },
+      "vwsll.vv": {
+        "$ref": "inst/Zvbb/vwsll.vv.yaml"
+      },
+      "vwsll.vx": {
+        "$ref": "inst/Zvbb/vwsll.vx.yaml"
+      }
+    },
+    "Zvbc": {
+      "vclmul.vv": {
+        "$ref": "inst/Zvbc/vclmul.vv.yaml"
+      },
+      "vclmul.vx": {
+        "$ref": "inst/Zvbc/vclmul.vx.yaml"
+      },
+      "vclmulh.vv": {
+        "$ref": "inst/Zvbc/vclmulh.vv.yaml"
+      },
+      "vclmulh.vx": {
+        "$ref": "inst/Zvbc/vclmulh.vx.yaml"
+      }
+    },
+    "Zvfbfmin": {
+      "vfncvtbf16.f.f.w": {
+        "$ref": "inst/Zvfbfmin/vfncvtbf16.f.f.w.yaml"
+      },
+      "vfwcvtbf16.f.f.v": {
+        "$ref": "inst/Zvfbfmin/vfwcvtbf16.f.f.v.yaml"
+      }
+    },
+    "Zvfbfwma": {
+      "vfwmaccbf16.vf": {
+        "$ref": "inst/Zvfbfwma/vfwmaccbf16.vf.yaml"
+      },
+      "vfwmaccbf16.vv": {
+        "$ref": "inst/Zvfbfwma/vfwmaccbf16.vv.yaml"
+      }
+    },
+    "Zvkg": {
+      "vghsh.vv": {
+        "$ref": "inst/Zvkg/vghsh.vv.yaml"
+      },
+      "vgmul.vv": {
+        "$ref": "inst/Zvkg/vgmul.vv.yaml"
+      }
+    },
+    "Zvkn": {
+      "vaesdf.vs": {
+        "$ref": "inst/Zvkn/vaesdf.vs.yaml"
+      },
+      "vaesdf.vv": {
+        "$ref": "inst/Zvkn/vaesdf.vv.yaml"
+      },
+      "vaesdm.vs": {
+        "$ref": "inst/Zvkn/vaesdm.vs.yaml"
+      },
+      "vaesdm.vv": {
+        "$ref": "inst/Zvkn/vaesdm.vv.yaml"
+      },
+      "vaesef.vs": {
+        "$ref": "inst/Zvkn/vaesef.vs.yaml"
+      },
+      "vaesef.vv": {
+        "$ref": "inst/Zvkn/vaesef.vv.yaml"
+      },
+      "vaesem.vs": {
+        "$ref": "inst/Zvkn/vaesem.vs.yaml"
+      },
+      "vaesem.vv": {
+        "$ref": "inst/Zvkn/vaesem.vv.yaml"
+      },
+      "vaeskf1.vi": {
+        "$ref": "inst/Zvkn/vaeskf1.vi.yaml"
+      },
+      "vaeskf2.vi": {
+        "$ref": "inst/Zvkn/vaeskf2.vi.yaml"
+      },
+      "vaesz.vs": {
+        "$ref": "inst/Zvkn/vaesz.vs.yaml"
+      },
+      "vsha2ch.vv": {
+        "$ref": "inst/Zvkn/vsha2ch.vv.yaml"
+      },
+      "vsha2cl.vv": {
+        "$ref": "inst/Zvkn/vsha2cl.vv.yaml"
+      },
+      "vsha2ms.vv": {
+        "$ref": "inst/Zvkn/vsha2ms.vv.yaml"
+      }
+    },
+    "Zvks": {
+      "vsm3c.vi": {
+        "$ref": "inst/Zvks/vsm3c.vi.yaml"
+      },
+      "vsm3me.vv": {
+        "$ref": "inst/Zvks/vsm3me.vv.yaml"
+      },
+      "vsm4k.vi": {
+        "$ref": "inst/Zvks/vsm4k.vi.yaml"
+      },
+      "vsm4r.vs": {
+        "$ref": "inst/Zvks/vsm4r.vs.yaml"
+      },
+      "vsm4r.vv": {
+        "$ref": "inst/Zvks/vsm4r.vv.yaml"
+      }
+    }
+  },
+  "isa": {},
+  "manual": {
+    "isa": {
+      "$ref": "manual/isa.yaml"
+    }
+  },
+  "manual_version": {
+    "isa": {
+      "20240411": {
+        "isa_20240411": {
+          "$ref": "manual_version/isa/20240411/isa_20240411.yaml"
+        }
+      }
+    }
+  },
+  "profile": {
+    "MP-S-64": {
+      "$ref": "profile/MP-S-64.yaml"
+    },
+    "MP-U-64": {
+      "$ref": "profile/MP-U-64.yaml"
+    },
+    "RVA20S64": {
+      "$ref": "profile/RVA20S64.yaml"
+    },
+    "RVA20U64": {
+      "$ref": "profile/RVA20U64.yaml"
+    },
+    "RVA22S64": {
+      "$ref": "profile/RVA22S64.yaml"
+    },
+    "RVA22U64": {
+      "$ref": "profile/RVA22U64.yaml"
+    },
+    "RVA23S64": {
+      "$ref": "profile/RVA23S64.yaml"
+    },
+    "RVA23U64": {
+      "$ref": "profile/RVA23U64.yaml"
+    },
+    "RVB23S64": {
+      "$ref": "profile/RVB23S64.yaml"
+    },
+    "RVB23U64": {
+      "$ref": "profile/RVB23U64.yaml"
+    },
+    "RVI20U32": {
+      "$ref": "profile/RVI20U32.yaml"
+    },
+    "RVI20U64": {
+      "$ref": "profile/RVI20U64.yaml"
+    }
+  },
+  "profile_class": {
+    "MockProfileClass": {
+      "$ref": "profile_class/MockProfileClass.yaml"
+    },
+    "RVA": {
+      "$ref": "profile_class/RVA.yaml"
+    },
+    "RVB": {
+      "$ref": "profile_class/RVB.yaml"
+    },
+    "RVI": {
+      "$ref": "profile_class/RVI.yaml"
+    }
+  },
+  "profile_release": {
+    "MockProfileRelease": {
+      "$ref": "profile_release/MockProfileRelease.yaml"
+    },
+    "RVA20": {
+      "$ref": "profile_release/RVA20.yaml"
+    },
+    "RVA22": {
+      "$ref": "profile_release/RVA22.yaml"
+    },
+    "RVA23": {
+      "$ref": "profile_release/RVA23.yaml"
+    },
+    "RVB23": {
+      "$ref": "profile_release/RVB23.yaml"
+    },
+    "RVI20": {
+      "$ref": "profile_release/RVI20.yaml"
+    }
+  },
+  "prose": {}
+}

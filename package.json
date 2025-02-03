@@ -14,7 +14,9 @@
     "test": "eslint lib",
     "browserify": "browserify ./lib/app.js > docs/app.js",
     "build": "browserify ./lib/app.js | terser --compress -o docs/app.js",
-    "watch": "watchify ./lib/app.js -o docs/app.js -v"
+    "watch": "watchify ./lib/app.js -o docs/app.js -v",
+    "build.rvv": "browserify ./lib/app-rvv.js | terser --compress -o docs/app-rvv.js",
+    "watch.rvv": "watchify ./lib/app-rvv.js -o docs/app-rvv.js -v"
   },
   "repository": {
     "type": "git",
@@ -37,11 +39,15 @@
     "eslint": "^8.56.0",
     "live-server": "^1.2.2",
     "onml": "^2.1.0",
+    "pdfreader": "^3.0.5",
     "riscv": "^1.1.2",
     "terser": "^5.26.0",
     "watchify": "^4.0.0"
   },
   "eslintConfig": {
     "extends": "@drom/eslint-config/eslint8/node12"
+  },
+  "dependencies": {
+    "llamaindex": "^0.8.26"
   }
 }
