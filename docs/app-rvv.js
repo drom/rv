@@ -1766,12 +1766,6 @@ module.exports={
       "c.li": {
         "$ref": "inst/C/c.li.yaml"
       },
-      "c.lq": {
-        "$ref": "inst/C/c.lq.yaml"
-      },
-      "c.lqsp": {
-        "$ref": "inst/C/c.lqsp.yaml"
-      },
       "c.lui": {
         "$ref": "inst/C/c.lui.yaml"
       },
@@ -1798,12 +1792,6 @@ module.exports={
       },
       "c.slli": {
         "$ref": "inst/C/c.slli.yaml"
-      },
-      "c.sq": {
-        "$ref": "inst/C/c.sq.yaml"
-      },
-      "c.sqsp": {
-        "$ref": "inst/C/c.sqsp.yaml"
       },
       "c.srai": {
         "$ref": "inst/C/c.srai.yaml"
