@@ -34,13 +34,12 @@
     "@codemirror/view": "^6.43.15",
     "@drom/eslint-config": "^1.0.0",
     "@lezer/highlight": "^1.2.5",
-    "esbuild": "^0.25.12",
+    "esbuild": "^0.28.2",
     "eslint": "^10.13.0",
-    "globals": "^16.3.0",
-    "js-yaml": "^4.1.1",
-    "live-server": "1.2.2",
+    "globals": "^17.13.0",
+    "js-yaml": "^5.5.0",
     "onml": "^2.3.0",
     "pdfreader": "^3.0.8",
-    "riscv": "^1.8.0"
+    "riscv": "^2.1.0"
   }
 }
