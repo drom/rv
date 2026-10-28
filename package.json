@@ -9,7 +9,7 @@
   "engines": {
     "node": ">=22"
   },
-  "timestamp": "2026-05-27",
+  "timestamp": "2026-10-28",
   "scripts": {
     "test": "eslint lib",
     "build": "esbuild ./lib/app.js --bundle --format=iife --global-name=RV --alias:fs=./lib/empty.js --alias:http=./lib/empty.js --alias:https=./lib/empty.js --alias:path=./lib/empty.js --alias:process=./lib/empty.js --alias:os=./lib/empty.js --alias:crypto=./lib/empty.js --alias:stream=./lib/empty.js --footer:js=\"(function(r){if(typeof define=='function'&&define.amd){define([],()=>RV)}else if(typeof module=='object'&&module.exports){module.exports=RV}else{r.RV=RV}})(typeof self!=='undefined'?self:this);\" --minify --outfile=docs/app.js",
